@@ -10,15 +10,36 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_02_24_164912) do
+ActiveRecord::Schema[7.1].define(version: 2024_02_24_165432) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "expenses", force: :cascade do |t|
+    t.bigint "member_id", null: false
+    t.text "description"
+    t.decimal "amount", precision: 10, scale: 2
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["member_id"], name: "index_expenses_on_member_id"
+  end
 
   create_table "fee_types", force: :cascade do |t|
     t.string "name"
     t.decimal "amount", precision: 10, scale: 2
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "fines", force: :cascade do |t|
+    t.bigint "member_id", null: false
+    t.bigint "fee_type_id", null: false
+    t.integer "status", default: 0, null: false
+    t.decimal "amount", precision: 10, scale: 2
+    t.datetime "paid_date"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["fee_type_id"], name: "index_fines_on_fee_type_id"
+    t.index ["member_id"], name: "index_fines_on_member_id"
   end
 
   create_table "members", force: :cascade do |t|
@@ -38,4 +59,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_02_24_164912) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "expenses", "members"
+  add_foreign_key "fines", "fee_types"
+  add_foreign_key "fines", "members"
 end
