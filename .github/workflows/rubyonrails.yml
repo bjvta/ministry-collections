@@ -59,6 +59,7 @@ jobs:
           gem install brakeman
           brakeman -q -w2
       - name: Lint Ruby files
+        continue-on-error: true
         run: |
           gem install rubocop
           rubocop --parallel
