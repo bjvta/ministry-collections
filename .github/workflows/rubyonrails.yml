@@ -53,7 +53,7 @@ jobs:
       - name: Security audit dependencies
         run: 
           gem install bundler-audit &&
-          bin/bundler-audit --update
+          bundle exec bundler-audit --update
       - name: Security audit application code
         run: bin/brakeman -q -w2
       - name: Lint Ruby files
