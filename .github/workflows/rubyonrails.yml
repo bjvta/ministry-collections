@@ -51,14 +51,14 @@ jobs:
           bundler-cache: true
       # Add or replace any other lints here
       - name: Security audit dependencies
-        run: 
+        run: |
           gem install bundler-audit
           bundler-audit --update
-      # - name: Security audit application code
-      #   run: 
-      #     gem install brakeman
-      #     brakeman -q -w2
+      - name: Security audit application code
+        run: |
+          gem install brakeman
+          brakeman -q -w2
       - name: Lint Ruby files
-        run: 
+        run: |
           gem install rubocop
           rubocop --parallel
