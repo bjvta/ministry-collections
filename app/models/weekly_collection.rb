@@ -1,0 +1,2 @@
+class WeeklyCollection < ApplicationRecord
+end

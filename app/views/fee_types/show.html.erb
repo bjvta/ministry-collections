@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @fee_type %>
+
+<div>
+  <%= link_to "Edit this fee type", edit_fee_type_path(@fee_type) %> |
+  <%= link_to "Back to fee types", fee_types_path %>
+
+  <%= button_to "Destroy this fee type", @fee_type, method: :delete %>
+</div>

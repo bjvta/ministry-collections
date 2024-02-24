@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  week_date: 2024-02-24
+  amount: 9.99
+
+two:
+  week_date: 2024-02-24
+  amount: 9.99

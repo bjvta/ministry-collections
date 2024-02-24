@@ -1,0 +1,2 @@
+module WeeklyCollectionsHelper
+end

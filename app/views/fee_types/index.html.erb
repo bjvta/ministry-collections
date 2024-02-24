@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Fee types</h1>
+
+<div id="fee_types">
+  <% @fee_types.each do |fee_type| %>
+    <%= render fee_type %>
+    <p>
+      <%= link_to "Show this fee type", fee_type %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New fee type", new_fee_type_path %>
