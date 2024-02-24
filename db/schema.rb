@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_02_24_165432) do
+ActiveRecord::Schema[7.1].define(version: 2024_02_24_165731) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -42,6 +42,18 @@ ActiveRecord::Schema[7.1].define(version: 2024_02_24_165432) do
     t.index ["member_id"], name: "index_fines_on_member_id"
   end
 
+  create_table "member_weekly_collections", force: :cascade do |t|
+    t.bigint "member_id", null: false
+    t.bigint "weekly_collection_id", null: false
+    t.integer "status", default: 0, null: false
+    t.decimal "amount", precision: 10, scale: 2
+    t.datetime "paid_date"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["member_id"], name: "index_member_weekly_collections_on_member_id"
+    t.index ["weekly_collection_id"], name: "index_member_weekly_collections_on_weekly_collection_id"
+  end
+
   create_table "members", force: :cascade do |t|
     t.string "first_name"
     t.string "last_name"
@@ -62,4 +74,6 @@ ActiveRecord::Schema[7.1].define(version: 2024_02_24_165432) do
   add_foreign_key "expenses", "members"
   add_foreign_key "fines", "fee_types"
   add_foreign_key "fines", "members"
+  add_foreign_key "member_weekly_collections", "members"
+  add_foreign_key "member_weekly_collections", "weekly_collections"
 end

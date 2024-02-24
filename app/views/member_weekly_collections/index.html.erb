@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Member weekly collections</h1>
+
+<div id="member_weekly_collections">
+  <% @member_weekly_collections.each do |member_weekly_collection| %>
+    <%= render member_weekly_collection %>
+    <p>
+      <%= link_to "Show this member weekly collection", member_weekly_collection %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New member weekly collection", new_member_weekly_collection_path %>

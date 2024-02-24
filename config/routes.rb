@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :member_weekly_collections
   resources :fines
   resources :expenses
   resources :weekly_collections

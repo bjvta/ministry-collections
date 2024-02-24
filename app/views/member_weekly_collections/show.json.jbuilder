@@ -1,0 +1,1 @@
+json.partial! "member_weekly_collections/member_weekly_collection", member_weekly_collection: @member_weekly_collection

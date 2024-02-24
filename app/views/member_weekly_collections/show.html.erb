@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @member_weekly_collection %>
+
+<div>
+  <%= link_to "Edit this member weekly collection", edit_member_weekly_collection_path(@member_weekly_collection) %> |
+  <%= link_to "Back to member weekly collections", member_weekly_collections_path %>
+
+  <%= button_to "Destroy this member weekly collection", @member_weekly_collection, method: :delete %>
+</div>
