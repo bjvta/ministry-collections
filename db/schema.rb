@@ -10,9 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_02_24_165731) do
+ActiveRecord::Schema[7.1].define(version: 2024_02_24_170233) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "balances", force: :cascade do |t|
+    t.integer "type"
+    t.decimal "amount", precision: 10, scale: 2
+    t.bigint "member_id", null: false
+    t.integer "income_type", default: 0
+    t.decimal "previous_balance", precision: 10, scale: 2
+    t.decimal "current_balance", precision: 10, scale: 2
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["member_id"], name: "index_balances_on_member_id"
+  end
 
   create_table "expenses", force: :cascade do |t|
     t.bigint "member_id", null: false
@@ -71,6 +83,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_02_24_165731) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "balances", "members"
   add_foreign_key "expenses", "members"
   add_foreign_key "fines", "fee_types"
   add_foreign_key "fines", "members"
