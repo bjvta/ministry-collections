@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :balance do
-    type { 0 } # for income
+    type_movement { 0 } # for income
     # type { 1 } # for expense
     # type { [0, 1].sample } # replace with your actual types
     amount { Faker::Number.decimal(l_digits: 2, r_digits: 2) }
