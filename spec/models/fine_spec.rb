@@ -11,4 +11,14 @@ RSpec.describe Fine, type: :model do
     it { should belong_to(:member) }
     it { should belong_to(:fee_type) }
   end
+
+  describe "#pay" do
+    it "should update the status to paid" do
+      fine = create(:fine)
+      expect {
+        fine.pay!
+      }.to change(Balance, :count).by(1)
+      expect(fine.status).to eq("paid")
+    end
+  end
 end
