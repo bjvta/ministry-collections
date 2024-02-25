@@ -1,12 +1,5 @@
-<div id="<%= dom_id weekly_collection %>">
-  <p>
-    <strong>Week date:</strong>
-    <%= weekly_collection.week_date %>
-  </p>
-
-  <p>
-    <strong>Amount:</strong>
-    <%= weekly_collection.amount %>
-  </p>
-
-</div>
+<tr id="<%= dom_id weekly_collection %>">
+  <td><%= weekly_collection.week_date %></td>
+  <td><%= weekly_collection.amount %></td>
+  <td><%= link_to "Show", weekly_collection %></td>
+</tr>

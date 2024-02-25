@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'home/index'
+  root 'home#index'
   resources :member_weekly_collections
   resources :fines
   resources :expenses

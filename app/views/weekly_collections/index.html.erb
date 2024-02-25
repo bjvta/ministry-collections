@@ -3,12 +3,17 @@
 <h1>Weekly collections</h1>
 
 <div id="weekly_collections">
-  <% @weekly_collections.each do |weekly_collection| %>
-    <%= render weekly_collection %>
-    <p>
-      <%= link_to "Show this weekly collection", weekly_collection %>
-    </p>
-  <% end %>
+  <table class="table table-striped table-bordered">
+    <thead>
+      <th>Fecha</th>
+      <th>Monto</th>
+      <th></th>
+    </thead>
+    <tbody>
+      <% @weekly_collections.each do |weekly_collection| %>
+          <%= render weekly_collection %>
+      <% end %>
+    </tbody>
+  </table>
 </div>
-
-<%= link_to "New weekly collection", new_weekly_collection_path %>
+<%= link_to "New weekly collection", new_weekly_collection_path, class: 'btn btn-primary' %>
