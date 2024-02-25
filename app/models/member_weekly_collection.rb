@@ -8,4 +8,8 @@ class MemberWeeklyCollection < ApplicationRecord
   def week_date
     weekly_collection.week_date
   end
+
+  def member_name
+    member.first_name + ' ' + member.last_name
+  end
 end

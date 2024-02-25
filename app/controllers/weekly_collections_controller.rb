@@ -8,6 +8,7 @@ class WeeklyCollectionsController < ApplicationController
 
   # GET /weekly_collections/1 or /weekly_collections/1.json
   def show
+    @member_weekly_collections = @weekly_collection.member_weekly_collections.where(status: "unpaid")
   end
 
   # GET /weekly_collections/new
