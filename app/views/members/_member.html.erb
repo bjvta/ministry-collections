@@ -1,27 +1,9 @@
-<div id="<%= dom_id member %>">
-  <p>
-    <strong>First name:</strong>
-    <%= member.first_name %>
-  </p>
+<tr id="<%= dom_id member %>">
+  <td><%= member.first_name %></td>
+  <td><%= member.last_name %></td>
+  <td><%= member.birthday %></td>
+  <td><%= member.active %></td>
+  <td><%= member.enabled_to_pay %></td>
+  <td><%= link_to "Show this member", member %></td>
+</tr>
 
-  <p>
-    <strong>Last name:</strong>
-    <%= member.last_name %>
-  </p>
-
-  <p>
-    <strong>Birthday:</strong>
-    <%= member.birthday %>
-  </p>
-
-  <p>
-    <strong>Active:</strong>
-    <%= member.active %>
-  </p>
-
-  <p>
-    <strong>Enabled to pay:</strong>
-    <%= member.enabled_to_pay %>
-  </p>
-
-</div>

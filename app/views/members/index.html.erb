@@ -3,12 +3,21 @@
 <h1>Members</h1>
 
 <div id="members">
-  <% @members.each do |member| %>
-    <%= render member %>
-    <p>
-      <%= link_to "Show this member", member %>
-    </p>
-  <% end %>
+  <table class="table table-striped table-bordered">
+    <thead>
+      <th>Nombre</th>
+      <th>Apellido</th>
+      <th>Fecha de Cumpleanos</th>
+      <th>Activo</th>
+      <th>Activo para pagar</th>
+      <th></th>
+    </thead>
+    <tbody>
+      <% @members.each do |member| %>
+          <%= render member %>
+      <% end %>
+    </tbody>
+  </table>
 </div>
 
-<%= link_to "New member", new_member_path %>
+<%= link_to "New member", new_member_path, class: 'btn btn-primary' %>

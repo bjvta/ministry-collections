@@ -1,6 +1,49 @@
 <p style="color: green"><%= notice %></p>
 
-<%= render @member %>
+
+<strong>First name:</strong>
+<%= @member.first_name %>
+<br>
+
+<strong>Last name:</strong>
+<%= @member.last_name %>
+
+<br>
+<strong>Birthday:</strong>
+<%= @member.birthday %>
+<br>
+<strong>Active:</strong>
+<%= @member.active %>
+<br>
+<strong>enabled_to_pay:</strong>
+<%= @member.enabled_to_pay %>
+<hr>
+<h2>Recogida semanal</h2>
+<table class="table table-striped table-hover">
+  <thead>
+    <th>Fecha</th>
+    <th>Monto</th>
+    <th>Status</th>
+    <th></th>
+  </thead>
+  <tbody>
+    <% @member_weekly_collections.each do |week_collection| %>
+      <tr>
+        <td><%= week_collection.week_date %></td>
+        <td><%= week_collection.amount %></td>
+        <td><%= week_collection.status %></td>
+        <td> <button class="btn btn-success">Pagar</button> </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<hr>
+<h2>Multas</h2>
+<hr>
+
+
+
+  
 
 <div>
   <%= link_to "Edit this member", edit_member_path(@member) %> |
