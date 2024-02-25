@@ -1,5 +1,9 @@
 require 'rails_helper'
 
 RSpec.describe WeeklyCollection, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  describe 'validations' do
+    it { should validate_presence_of(:week_date) }
+    it { should validate_presence_of(:amount) }
+    it { should validate_numericality_of(:amount).is_greater_than_or_equal_to(0) }
+  end
 end
