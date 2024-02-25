@@ -28,7 +28,7 @@
   </thead>
   <tbody>
     <% @member_weekly_collections.each do |week_collection| %>
-      <tr>
+      <tr data-id="<%= week_collection.id %>">
         <td><%= week_collection.week_date %></td>
         <td><%= week_collection.amount %></td>
         <td><%= week_collection.status %></td>
@@ -43,11 +43,35 @@
 
 
 
-  
-
 <div>
   <%= link_to "Edit this member", edit_member_path(@member) %> |
   <%= link_to "Back to members", members_path %>
 
   <%= button_to "Destroy this member", @member, method: :delete %>
 </div>
+
+<script type="text/javascript">
+  document.querySelector('.btn.btn-success').addEventListener('click', function() {
+      const memberWeeklyCollectionId = document.querySelector('.btn.btn-success').parentNode.parentNode.dataset.id;
+
+      fetch('/pay_member_weekly_collection', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRF-Token': '<%= form_authenticity_token.to_s %>'
+        },
+        body: JSON.stringify({ member_weekly_collection_id: memberWeeklyCollectionId })
+      })
+        .then(response => response.json())
+        .then(data => {
+          if(data.status === "success"){
+            this.remove()
+          }else{
+            alert(data.message)
+          }
+        })
+        .catch(error => {
+          console.log(error)
+        });
+    });    
+</script>

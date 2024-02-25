@@ -58,6 +58,16 @@ class MembersController < ApplicationController
     end
   end
 
+  def pay_weekly_collection
+    member_weekly_collection = MemberWeeklyCollection.find(params[:member_weekly_collection_id])
+    begin
+      member_weekly_collection.pay!
+      render json: { status: "success"}
+    rescue => e
+      render json: { status: "error", message: "Unable to pay member, #{e.message}",}
+    end
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_member
