@@ -23,3 +23,6 @@ end
 
 FeeType.find_or_create_by!(name: "Llegada tarde", amount: 10.00)
 FeeType.find_or_create_by!(name: "Falta", amount: 10.00)
+
+member = Member.find_by(first_name: "José Luis")
+Balance.find_or_create_by!(member: member, previous_balance:0, current_balance: 1382, type_movement: 0, amount: 1382)
