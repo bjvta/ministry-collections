@@ -7,6 +7,10 @@ class Expense < ApplicationRecord
 
   after_create :insert_into_balance
 
+  def member_name
+    member.full_name
+  end
+
   private
 
   def insert_into_balance

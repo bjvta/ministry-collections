@@ -1,5 +1,6 @@
 class ExpensesController < ApplicationController
   before_action :set_expense, only: %i[ show edit update destroy ]
+  before_action :set_members, only: %i[ new create edit update]
 
   # GET /expenses or /expenses.json
   def index
@@ -66,5 +67,9 @@ class ExpensesController < ApplicationController
     # Only allow a list of trusted parameters through.
     def expense_params
       params.require(:expense).permit(:member_id, :description, :amount)
+    end
+
+    def set_members
+      @members = Member.all.order(:first_name, :last_name)
     end
 end

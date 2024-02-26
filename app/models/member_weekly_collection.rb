@@ -10,6 +10,6 @@ class MemberWeeklyCollection < ApplicationRecord
   end
 
   def member_name
-    member.first_name + ' ' + member.last_name
+    member.full_name
   end
 end
