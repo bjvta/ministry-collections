@@ -1,47 +1,71 @@
-FROM ruby:3.2.2-slim
+# syntax = docker/dockerfile:1
 
-RUN apt-get update -qq && apt-get install -yq --no-install-recommends \
-    build-essential \
-    gnupg2 \
-    libpq-dev \
-    && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+# Make sure RUBY_VERSION matches the Ruby version in .ruby-version and Gemfile
+ARG RUBY_VERSION=3.2.2
+FROM registry.docker.com/library/ruby:$RUBY_VERSION-slim as base
 
-RUN apt-get update -qq && apt-get install -yq --no-install-recommends \
-    yarn \
-    && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+# Rails app lives here
+WORKDIR /rails
 
-ENV LANG=C.UTF-8 \
-    BUNDLE_JOBS=4 \
-    BUNDLE_RETRY=3 \
-    RAILS_ENV=production
+# Set production environment
+ENV RAILS_ENV="production" \
+    BUNDLE_DEPLOYMENT="1" \
+    BUNDLE_PATH="/usr/local/bundle" \
+    BUNDLE_WITHOUT="development"
 
-RUN gem update --system && gem install bundler
 
-WORKDIR /usr/src/app
+# Throw-away build stage to reduce size of final image
+FROM base as build
 
-COPY Gemfile* ./
+ARG NODE_VERSION=18.x
+RUN apt-get update -qq && \
+    apt-get install --no-install-recommends -y curl gnupg && \
+    curl -sL https://deb.nodesource.com/setup_$NODE_VERSION | bash - && \
+    apt-get install -y nodejs && \
+    npm install --global yarn && \
+    apt-get install --no-install-recommends -y build-essential git libpq-dev libvips pkg-config
 
-RUN bundle config frozen true \
-    && bundle config jobs 4 \
-    && bundle config deployment true \
-    && bundle config without 'development test' \
-    && bundle install
+# Install packages needed to build gems
+RUN apt-get update -qq && \
+    apt-get install --no-install-recommends -y build-essential git libpq-dev libvips pkg-config
 
+# Install application gems
+COPY Gemfile Gemfile.lock ./
+RUN bundle install && \
+    rm -rf ~/.bundle/ "${BUNDLE_PATH}"/ruby/*/cache "${BUNDLE_PATH}"/ruby/*/bundler/gems/*/.git && \
+    bundle exec bootsnap precompile --gemfile
+
+# Copy application code
 COPY . .
 
-# Precompile assets
-# SECRET_KEY_BASE or RAILS_MASTER_KEY is required in production, but we don't
-# want real secrets in the image or image history. The real secret is passed in
-# at run time
+# Precompile bootsnap code for faster boot times
+RUN bundle exec bootsnap precompile app/ lib/
+
+# Precompiling assets for production without requiring secret RAILS_MASTER_KEY
 ARG SECRET_KEY_BASE=fakekeyforassets
-RUN bundle exec rails assets:precompile
+RUN ./bin/rails assets:precompile
 
-# Run database migrations when deploying to Render. It is not great, maybe there's a better way?
-# https://community.render.com/t/release-command-for-db-migrations/247/6
-ARG RENDER
-ARG DATABASE_URL
-RUN if [ -z "$RENDER" ]; then echo "var is unset"; else bin/rails db:migrate; fi
 
+# Final stage for app image
+FROM base
+
+# Install packages needed for deployment
+RUN apt-get update -qq && \
+    apt-get install --no-install-recommends -y curl libvips postgresql-client && \
+    rm -rf /var/lib/apt/lists /var/cache/apt/archives
+
+# Copy built artifacts: gems, application
+COPY --from=build /usr/local/bundle /usr/local/bundle
+COPY --from=build /rails /rails
+
+# Run and own only the runtime files as a non-root user for security
+RUN useradd rails --create-home --shell /bin/bash && \
+    chown -R rails:rails db log storage tmp
+USER rails:rails
+
+# Entrypoint prepares the database.
+ENTRYPOINT ["/rails/bin/docker-entrypoint"]
+
+# Start the server by default, this can be overwritten at runtime
 EXPOSE 3000
-
-CMD ["bundle", "exec", "puma", "-C", "config/puma.rb"]
+CMD ["./bin/rails", "server"]

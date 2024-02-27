@@ -17,6 +17,14 @@ ENV RAILS_ENV="production" \
 # Throw-away build stage to reduce size of final image
 FROM base as build
 
+ARG NODE_VERSION=18.x
+RUN apt-get update -qq && \
+    apt-get install --no-install-recommends -y curl gnupg && \
+    curl -sL https://deb.nodesource.com/setup_$NODE_VERSION | bash - && \
+    apt-get install -y nodejs && \
+    npm install --global yarn && \
+    apt-get install --no-install-recommends -y build-essential git libpq-dev libvips pkg-config
+
 # Install packages needed to build gems
 RUN apt-get update -qq && \
     apt-get install --no-install-recommends -y build-essential git libpq-dev libvips pkg-config
@@ -34,7 +42,8 @@ COPY . .
 RUN bundle exec bootsnap precompile app/ lib/
 
 # Precompiling assets for production without requiring secret RAILS_MASTER_KEY
-RUN SECRET_KEY_BASE_DUMMY=1 ./bin/rails assets:precompile
+ARG SECRET_KEY_BASE=fakekeyforassets
+RUN ./bin/rails assets:precompile
 
 
 # Final stage for app image
