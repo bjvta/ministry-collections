@@ -64,8 +64,10 @@ RUN useradd rails --create-home --shell /bin/bash && \
 USER rails:rails
 
 # Entrypoint prepares the database.
-ENTRYPOINT ["/rails/bin/docker-entrypoint"]
+ARG RENDER
+ARG DATABASE_URL
+RUN if [ -z "$RENDER" ]; then echo "var is unset"; else bin/rails db:migrate; fi
 
-# Start the server by default, this can be overwritten at runtime
 EXPOSE 3000
-CMD ["./bin/rails", "server"]
+
+CMD ["bundle", "exec", "puma", "-C", "config/puma.rb"]
