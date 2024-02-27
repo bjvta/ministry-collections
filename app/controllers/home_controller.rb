@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
   def index
-    # @balance = Balance.last
+    @balance = Balance.last
   end
 end
