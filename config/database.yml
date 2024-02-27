@@ -79,6 +79,4 @@ test:
 #
 production:
   <<: *default
-  database: ministry_collections_production
-  username: ministry_collections
-  password: <%= ENV["MINISTRY_COLLECTIONS_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
