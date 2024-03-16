@@ -44,10 +44,11 @@
 
 
 <div>
-  <%= link_to "Edit this member", edit_member_path(@member) %> |
-  <%= link_to "Back to members", members_path %>
-
-  <%= button_to "Destroy this member", @member, method: :delete %>
+  <%= link_to "Edit this member", edit_member_path(@member), class: 'btn btn-warning' %> |
+  <%= link_to "Back to members", members_path, class: 'btn btn-info' %>
+  <br>
+  <br>
+  <%= button_to "Destroy this member", @member, method: :delete, class: 'btn btn-danger' %>
 </div>
 
 <div>
