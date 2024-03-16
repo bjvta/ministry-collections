@@ -14,7 +14,8 @@ members = [
   { first_name: "Mariel", last_name: "Villagram", birthday: "01/01/1990", active: true, enabled_to_pay: true },
   { first_name: "Mauricio", last_name: "Añez", birthday: "01/01/1990", active: true, enabled_to_pay: true },
   { first_name: "Alexander", last_name: "Añez", birthday: "01/01/1990", active: true, enabled_to_pay: false },
-  { first_name: "Victor", last_name: "Soria", birthday: "01/01/1990", active: true, enabled_to_pay: false },
+  { first_name: "Victor", last_name: "Soria", birthday: "01/01/1990", active: true, enabled_to_pay: true },
+  { first_name: "Milena", last_name: "", birthday: "01/01/1990", active: true, enabled_to_pay: true },
 ]
 
 members.each do |member|

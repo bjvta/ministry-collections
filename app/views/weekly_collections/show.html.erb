@@ -25,10 +25,12 @@
 <hr>
 
 <div>
-  <%= link_to "Edit this weekly collection", edit_weekly_collection_path(@weekly_collection) %> |
-  <%= link_to "Back to weekly collections", weekly_collections_path %>
-
-  <%= button_to "Destroy this weekly collection", @weekly_collection, method: :delete %>
+  <%= link_to "Edit this weekly collection", edit_weekly_collection_path(@weekly_collection), class: 'btn btn-warning' %> |
+  <%= link_to "Back to weekly collections", weekly_collections_path, class: 'btn btn-info' %>
+  <br>
+  <br>
+  <br>
+  <%= button_to "Destroy this weekly collection", @weekly_collection, method: :delete, class: 'btn btn-danger' %>
 </div>
 
 
