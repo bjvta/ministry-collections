@@ -7,4 +7,8 @@ class Member < ApplicationRecord
   def full_name
     first_name + ' ' + last_name
   end
+
+  def debt_amount
+    member_weekly_collections.unpaid.sum(:amount)
+  end
 end
