@@ -13,27 +13,12 @@
 
   <div>
     <%= form.label :member_id, style: "display: block" %>
-    <%= form.text_field :member_id %>
+    <%= form.select :member_id, @members.collect { |m| [m.full_name, m.id] }, {}, class: 'form-control' %>
   </div>
 
   <div>
     <%= form.label :fee_type_id, style: "display: block" %>
-    <%= form.text_field :fee_type_id %>
-  </div>
-
-  <div>
-    <%= form.label :status, style: "display: block" %>
-    <%= form.number_field :status %>
-  </div>
-
-  <div>
-    <%= form.label :amount, style: "display: block" %>
-    <%= form.text_field :amount %>
-  </div>
-
-  <div>
-    <%= form.label :paid_date, style: "display: block" %>
-    <%= form.datetime_field :paid_date %>
+    <%= form.select :fee_type_id, @fee_types.collect { |f| ["#{f.name} - #{f.amount}", f.id] }, {}, class: 'form-control' %>
   </div>
 
   <div>

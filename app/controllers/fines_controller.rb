@@ -1,5 +1,7 @@
 class FinesController < ApplicationController
   before_action :set_fine, only: %i[ show edit update destroy ]
+  before_action :set_members, only: %i[ new create edit update]
+  before_action :set_fee_types, only: %i[ new create edit update]
 
   # GET /fines or /fines.json
   def index
@@ -22,7 +24,7 @@ class FinesController < ApplicationController
   # POST /fines or /fines.json
   def create
     @fine = Fine.new(fine_params)
-
+    @fine.amount = @fine.fee_type.amount
     respond_to do |format|
       if @fine.save
         format.html { redirect_to fine_url(@fine), notice: "Fine was successfully created." }
@@ -65,6 +67,14 @@ class FinesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def fine_params
-      params.require(:fine).permit(:member_id, :fee_type_id, :status, :amount, :paid_date)
+      params.require(:fine).permit(:member_id, :fee_type_id)
+    end
+
+    def set_members
+      @members = Member.all.order(:first_name, :last_name)
+    end
+    
+    def set_fee_types
+      @fee_types = FeeType.all.order(:name)
     end
 end
