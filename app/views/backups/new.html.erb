@@ -1,0 +1,7 @@
+<h1>Backup Your Application</h1>
+
+<%= form_with url: create_backup_path, local: true, method: :post do %>
+  <div class="actions">
+    <%= submit_tag "Create Backup" %>
+  </div>
+<% end %>

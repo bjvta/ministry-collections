@@ -16,4 +16,6 @@ Rails.application.routes.draw do
 
   post 'pay_member_weekly_collection', to: 'members#pay_weekly_collection'
   post 'pay_member_fine', to: 'members#pay_fine'
+  get 'backups/new', to: 'backups#new', as: 'new_backup'
+  post 'backups/create', to: 'backups#create', as: 'create_backup'
 end
