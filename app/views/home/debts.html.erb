@@ -6,13 +6,17 @@
     <thead>
       <th>Nombre</th>
       <th>Apellido</th>
-      <th>Monto Adeudado</th>
+      <th>Monto Adeudado - Semanal</th>
+      <th>Monto Adeudado - Multas</th>
+      <th>Monto Adeudado - Total</th>
     </thead>
     <tbody>
       <% @members.each do |member| %>
         <tr>
             <td><%= member.first_name %></td>
             <td><%= member.last_name %></td>
+            <td><%= member.deb_weekly_collections %></td>
+            <td><%= member.deb_fines %></td>
             <td><%= member.debt_amount %></td>
         </tr>
       <% end %>
