@@ -15,4 +15,5 @@ Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check
 
   post 'pay_member_weekly_collection', to: 'members#pay_weekly_collection'
+  post 'pay_member_fine', to: 'members#pay_fine'
 end

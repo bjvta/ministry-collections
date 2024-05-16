@@ -9,7 +9,8 @@ class MembersController < ApplicationController
   # GET /members/1 or /members/1.json
   def show
     @member_weekly_collections = @member.member_weekly_collections.where(status: "unpaid")
-    @payments = @member.member_weekly_collections.where(status: "paid")
+    @member_fines = @member.fines.where(status: "unpaid")
+    @payments = @member.balances.where(type_movement: "income")
   end
 
   # GET /members/new
@@ -64,6 +65,16 @@ class MembersController < ApplicationController
     begin
       member_weekly_collection.pay!
       render json: { status: "success"}
+    rescue => e
+      render json: { status: "error", message: "Unable to pay member, #{e.message}",}
+    end
+  end
+
+  def pay_fine
+    fine = Fine.find(params[:fine_id])
+    begin
+      fine.pay!
+      render json: { status: "success" }
     rescue => e
       render json: { status: "error", message: "Unable to pay member, #{e.message}",}
     end

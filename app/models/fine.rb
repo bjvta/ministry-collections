@@ -9,4 +9,8 @@ class Fine < ApplicationRecord
   belongs_to :fee_type
 
   enum status: { unpaid: 0, paid: 1 }
+
+  def fee_type_name
+    fee_type.name
+  end
 end
