@@ -12,7 +12,7 @@ class BackupsController < ApplicationController
     FileUtils.mkdir_p(backup_dir)
 
     # Parse the DATABASE_URL
-    db_url = URI.parse('postgres://mysite:8eYYyqSeXE1wD5eI1slM7uOhEhwqMZeN@dpg-cneklbq1hbls738pag20-a.oregon-postgres.render.com/mysite_f4yy')
+    db_url = URI.parse(ENV['DATABASE_URL'])
     db_name = db_url.path[1..-1]  # Remove leading slash
     db_user = db_url.user
     db_password = db_url.password
