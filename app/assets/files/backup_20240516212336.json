@@ -1,0 +1,2867 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "first_name": "Brandon",
+      "last_name": "Valle",
+      "birthday": "1992-04-12",
+      "active": true,
+      "enabled_to_pay": true,
+      "created_at": "2024-02-27T02:46:40.329Z",
+      "updated_at": "2024-02-27T02:46:40.329Z"
+    },
+    {
+      "id": 3,
+      "first_name": "Rolf",
+      "last_name": "Llampa",
+      "birthday": "1990-01-01",
+      "active": true,
+      "enabled_to_pay": true,
+      "created_at": "2024-02-27T02:46:40.345Z",
+      "updated_at": "2024-02-27T02:46:40.345Z"
+    },
+    {
+      "id": 4,
+      "first_name": "Aaron",
+      "last_name": "Añez",
+      "birthday": "1990-01-01",
+      "active": true,
+      "enabled_to_pay": true,
+      "created_at": "2024-02-27T02:46:40.351Z",
+      "updated_at": "2024-02-27T02:46:40.351Z"
+    },
+    {
+      "id": 5,
+      "first_name": "Agustin",
+      "last_name": "Montaño",
+      "birthday": "1990-01-01",
+      "active": true,
+      "enabled_to_pay": true,
+      "created_at": "2024-02-27T02:46:40.355Z",
+      "updated_at": "2024-02-27T02:46:40.355Z"
+    },
+    {
+      "id": 6,
+      "first_name": "Alicia",
+      "last_name": "Jimenez",
+      "birthday": "1990-01-01",
+      "active": false,
+      "enabled_to_pay": false,
+      "created_at": "2024-02-27T02:46:40.363Z",
+      "updated_at": "2024-02-27T02:46:40.363Z"
+    },
+    {
+      "id": 7,
+      "first_name": "Carlos",
+      "last_name": "Aguilar",
+      "birthday": "1990-01-01",
+      "active": true,
+      "enabled_to_pay": true,
+      "created_at": "2024-02-27T02:46:40.370Z",
+      "updated_at": "2024-02-27T02:46:40.370Z"
+    },
+    {
+      "id": 8,
+      "first_name": "Esther",
+      "last_name": "Cruz",
+      "birthday": "1990-01-01",
+      "active": true,
+      "enabled_to_pay": true,
+      "created_at": "2024-02-27T02:46:40.378Z",
+      "updated_at": "2024-02-27T02:46:40.378Z"
+    },
+    {
+      "id": 9,
+      "first_name": "Graciela",
+      "last_name": "Rojas",
+      "birthday": "1990-01-01",
+      "active": true,
+      "enabled_to_pay": true,
+      "created_at": "2024-02-27T02:46:40.384Z",
+      "updated_at": "2024-02-27T02:46:40.384Z"
+    },
+    {
+      "id": 11,
+      "first_name": "Johan",
+      "last_name": "Nava",
+      "birthday": "1990-01-01",
+      "active": true,
+      "enabled_to_pay": true,
+      "created_at": "2024-02-27T02:46:40.392Z",
+      "updated_at": "2024-02-27T02:46:40.392Z"
+    },
+    {
+      "id": 12,
+      "first_name": "José Luis",
+      "last_name": "Diaz",
+      "birthday": "1990-01-01",
+      "active": true,
+      "enabled_to_pay": true,
+      "created_at": "2024-02-27T02:46:40.406Z",
+      "updated_at": "2024-02-27T02:46:40.406Z"
+    },
+    {
+      "id": 13,
+      "first_name": "Mariel",
+      "last_name": "Villagram",
+      "birthday": "1990-01-01",
+      "active": true,
+      "enabled_to_pay": true,
+      "created_at": "2024-02-27T02:46:40.423Z",
+      "updated_at": "2024-02-27T02:46:40.423Z"
+    },
+    {
+      "id": 14,
+      "first_name": "Mauricio",
+      "last_name": "Añez",
+      "birthday": "1990-01-01",
+      "active": true,
+      "enabled_to_pay": true,
+      "created_at": "2024-02-27T02:46:40.443Z",
+      "updated_at": "2024-02-27T02:46:40.443Z"
+    },
+    {
+      "id": 15,
+      "first_name": "Alexander",
+      "last_name": "Añez",
+      "birthday": "1990-01-01",
+      "active": true,
+      "enabled_to_pay": false,
+      "created_at": "2024-02-27T02:46:40.467Z",
+      "updated_at": "2024-02-27T02:46:40.467Z"
+    },
+    {
+      "id": 16,
+      "first_name": "Victor",
+      "last_name": "Soria",
+      "birthday": "1990-01-01",
+      "active": true,
+      "enabled_to_pay": true,
+      "created_at": "2024-02-27T02:46:40.479Z",
+      "updated_at": "2024-02-27T02:55:30.791Z"
+    },
+    {
+      "id": 17,
+      "first_name": "Milena ",
+      "last_name": "Taceo",
+      "birthday": "1990-01-01",
+      "active": true,
+      "enabled_to_pay": true,
+      "created_at": "2024-03-02T01:14:02.767Z",
+      "updated_at": "2024-03-02T01:14:02.767Z"
+    },
+    {
+      "id": 10,
+      "first_name": "Laida",
+      "last_name": "Vaca",
+      "birthday": "1990-01-01",
+      "active": true,
+      "enabled_to_pay": true,
+      "created_at": "2024-02-27T02:46:40.388Z",
+      "updated_at": "2024-05-05T18:07:47.205Z"
+    },
+    {
+      "id": 2,
+      "first_name": "Herlan",
+      "last_name": "Añez",
+      "birthday": "1990-01-01",
+      "active": true,
+      "enabled_to_pay": true,
+      "created_at": "2024-02-27T02:46:40.341Z",
+      "updated_at": "2024-05-05T18:24:13.230Z"
+    }
+  ],
+  "fee_types": [
+    {
+      "id": 1,
+      "name": "Llegada tarde",
+      "amount": "10.0",
+      "created_at": "2024-02-27T02:46:40.511Z",
+      "updated_at": "2024-02-27T02:46:40.511Z"
+    },
+    {
+      "id": 2,
+      "name": "Falta",
+      "amount": "10.0",
+      "created_at": "2024-02-27T02:46:40.516Z",
+      "updated_at": "2024-02-27T02:46:40.516Z"
+    }
+  ],
+  "fines": [
+    {
+      "id": 1,
+      "member_id": 4,
+      "fee_type_id": 1,
+      "status": "unpaid",
+      "amount": "10.0",
+      "paid_date": null,
+      "created_at": "2024-05-16T03:19:38.535Z",
+      "updated_at": "2024-05-16T03:19:38.535Z"
+    },
+    {
+      "id": 2,
+      "member_id": 2,
+      "fee_type_id": 1,
+      "status": "unpaid",
+      "amount": "10.0",
+      "paid_date": null,
+      "created_at": "2024-05-16T03:19:54.304Z",
+      "updated_at": "2024-05-16T03:19:54.304Z"
+    },
+    {
+      "id": 3,
+      "member_id": 1,
+      "fee_type_id": 2,
+      "status": "unpaid",
+      "amount": "10.0",
+      "paid_date": null,
+      "created_at": "2024-05-16T03:20:03.289Z",
+      "updated_at": "2024-05-16T03:20:03.289Z"
+    }
+  ],
+  "expenses": [
+    {
+      "id": 1,
+      "member_id": 3,
+      "description": "280 cable canal y 60 bs pedestal caja",
+      "amount": "340.0",
+      "created_at": "2024-02-27T02:52:30.458Z",
+      "updated_at": "2024-02-27T02:52:30.458Z"
+    },
+    {
+      "id": 2,
+      "member_id": 3,
+      "description": "Pago profesor batería ",
+      "amount": "100.0",
+      "created_at": "2024-03-09T17:09:44.019Z",
+      "updated_at": "2024-03-09T17:09:44.019Z"
+    },
+    {
+      "id": 3,
+      "member_id": 3,
+      "description": "Pago profesor de Batería 2 ",
+      "amount": "100.0",
+      "created_at": "2024-03-16T21:04:57.851Z",
+      "updated_at": "2024-03-16T21:04:57.851Z"
+    },
+    {
+      "id": 4,
+      "member_id": 3,
+      "description": "Pago de bateria",
+      "amount": "100.0",
+      "created_at": "2024-04-21T13:57:37.034Z",
+      "updated_at": "2024-04-21T13:57:37.034Z"
+    }
+  ],
+  "weekly_collections": [
+    {
+      "id": 1,
+      "week_date": "2024-02-23",
+      "amount": "5.0",
+      "created_at": "2024-02-27T02:52:44.919Z",
+      "updated_at": "2024-02-27T02:52:44.919Z"
+    },
+    {
+      "id": 2,
+      "week_date": "2024-03-01",
+      "amount": "5.0",
+      "created_at": "2024-03-02T01:14:28.276Z",
+      "updated_at": "2024-03-02T01:14:28.276Z"
+    },
+    {
+      "id": 3,
+      "week_date": "2024-03-08",
+      "amount": "5.0",
+      "created_at": "2024-03-02T13:07:21.471Z",
+      "updated_at": "2024-03-02T13:07:21.471Z"
+    },
+    {
+      "id": 4,
+      "week_date": "2024-03-15",
+      "amount": "5.0",
+      "created_at": "2024-03-02T13:07:34.224Z",
+      "updated_at": "2024-03-16T14:41:52.380Z"
+    },
+    {
+      "id": 5,
+      "week_date": "2024-03-22",
+      "amount": "5.0",
+      "created_at": "2024-03-02T13:08:04.376Z",
+      "updated_at": "2024-03-16T14:42:08.522Z"
+    },
+    {
+      "id": 6,
+      "week_date": "2024-03-29",
+      "amount": "5.0",
+      "created_at": "2024-03-16T14:44:04.620Z",
+      "updated_at": "2024-03-16T14:44:04.620Z"
+    },
+    {
+      "id": 7,
+      "week_date": "2024-04-05",
+      "amount": "5.0",
+      "created_at": "2024-05-05T18:06:38.717Z",
+      "updated_at": "2024-05-05T18:06:38.717Z"
+    },
+    {
+      "id": 8,
+      "week_date": "2024-04-12",
+      "amount": "5.0",
+      "created_at": "2024-05-05T18:06:56.228Z",
+      "updated_at": "2024-05-05T18:06:56.228Z"
+    },
+    {
+      "id": 9,
+      "week_date": "2024-04-19",
+      "amount": "5.0",
+      "created_at": "2024-05-05T18:07:08.348Z",
+      "updated_at": "2024-05-05T18:07:08.348Z"
+    },
+    {
+      "id": 10,
+      "week_date": "2024-04-26",
+      "amount": "5.0",
+      "created_at": "2024-05-05T18:07:24.074Z",
+      "updated_at": "2024-05-05T18:07:24.074Z"
+    },
+    {
+      "id": 11,
+      "week_date": "2024-05-03",
+      "amount": "5.0",
+      "created_at": "2024-05-05T18:23:47.942Z",
+      "updated_at": "2024-05-05T18:23:47.942Z"
+    },
+    {
+      "id": 12,
+      "week_date": "2024-05-10",
+      "amount": "5.0",
+      "created_at": "2024-05-05T18:24:36.298Z",
+      "updated_at": "2024-05-05T18:24:36.298Z"
+    }
+  ],
+  "member_weekly_collections": [
+    {
+      "id": 6,
+      "member_id": 7,
+      "weekly_collection_id": 1,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-02-27T02:53:00.333Z",
+      "created_at": "2024-02-27T02:52:45.226Z",
+      "updated_at": "2024-02-27T02:53:00.333Z"
+    },
+    {
+      "id": 2,
+      "member_id": 2,
+      "weekly_collection_id": 1,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-02-27T02:53:02.274Z",
+      "created_at": "2024-02-27T02:52:45.044Z",
+      "updated_at": "2024-02-27T02:53:02.275Z"
+    },
+    {
+      "id": 1,
+      "member_id": 1,
+      "weekly_collection_id": 1,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-02-27T02:53:03.683Z",
+      "created_at": "2024-02-27T02:52:45.042Z",
+      "updated_at": "2024-02-27T02:53:03.683Z"
+    },
+    {
+      "id": 3,
+      "member_id": 3,
+      "weekly_collection_id": 1,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-02-27T02:53:08.092Z",
+      "created_at": "2024-02-27T02:52:45.045Z",
+      "updated_at": "2024-02-27T02:53:08.092Z"
+    },
+    {
+      "id": 9,
+      "member_id": 11,
+      "weekly_collection_id": 1,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-02-27T02:53:11.069Z",
+      "created_at": "2024-02-27T02:52:45.231Z",
+      "updated_at": "2024-02-27T02:53:11.069Z"
+    },
+    {
+      "id": 8,
+      "member_id": 9,
+      "weekly_collection_id": 1,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-02-27T02:53:12.271Z",
+      "created_at": "2024-02-27T02:52:45.230Z",
+      "updated_at": "2024-02-27T02:53:12.271Z"
+    },
+    {
+      "id": 7,
+      "member_id": 8,
+      "weekly_collection_id": 1,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-02-27T02:55:04.340Z",
+      "created_at": "2024-02-27T02:52:45.228Z",
+      "updated_at": "2024-02-27T02:55:04.341Z"
+    },
+    {
+      "id": 10,
+      "member_id": 12,
+      "weekly_collection_id": 1,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-02-27T02:55:06.388Z",
+      "created_at": "2024-02-27T02:52:45.232Z",
+      "updated_at": "2024-02-27T02:55:06.388Z"
+    },
+    {
+      "id": 21,
+      "member_id": 11,
+      "weekly_collection_id": 2,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-03-02T01:14:28.346Z",
+      "updated_at": "2024-03-02T01:14:28.346Z"
+    },
+    {
+      "id": 13,
+      "member_id": 1,
+      "weekly_collection_id": 2,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-02T01:14:33.023Z",
+      "created_at": "2024-03-02T01:14:28.318Z",
+      "updated_at": "2024-03-02T01:14:33.023Z"
+    },
+    {
+      "id": 14,
+      "member_id": 2,
+      "weekly_collection_id": 2,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-02T03:07:35.054Z",
+      "created_at": "2024-03-02T01:14:28.321Z",
+      "updated_at": "2024-03-02T03:07:35.054Z"
+    },
+    {
+      "id": 22,
+      "member_id": 12,
+      "weekly_collection_id": 2,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-02T03:07:49.950Z",
+      "created_at": "2024-03-02T01:14:28.349Z",
+      "updated_at": "2024-03-02T03:07:49.950Z"
+    },
+    {
+      "id": 19,
+      "member_id": 8,
+      "weekly_collection_id": 2,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-02T03:07:51.216Z",
+      "created_at": "2024-03-02T01:14:28.342Z",
+      "updated_at": "2024-03-02T03:07:51.216Z"
+    },
+    {
+      "id": 18,
+      "member_id": 7,
+      "weekly_collection_id": 2,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-02T03:08:19.726Z",
+      "created_at": "2024-03-02T01:14:28.341Z",
+      "updated_at": "2024-03-02T03:08:19.727Z"
+    },
+    {
+      "id": 15,
+      "member_id": 3,
+      "weekly_collection_id": 2,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-02T03:09:17.126Z",
+      "created_at": "2024-03-02T01:14:28.328Z",
+      "updated_at": "2024-03-02T03:09:17.126Z"
+    },
+    {
+      "id": 28,
+      "member_id": 2,
+      "weekly_collection_id": 3,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-03-02T13:07:21.640Z",
+      "updated_at": "2024-03-02T13:07:21.640Z"
+    },
+    {
+      "id": 32,
+      "member_id": 7,
+      "weekly_collection_id": 3,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-03-02T13:07:21.644Z",
+      "updated_at": "2024-03-02T13:07:21.644Z"
+    },
+    {
+      "id": 34,
+      "member_id": 9,
+      "weekly_collection_id": 3,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-03-02T13:07:21.732Z",
+      "updated_at": "2024-03-02T13:07:21.732Z"
+    },
+    {
+      "id": 35,
+      "member_id": 11,
+      "weekly_collection_id": 3,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-03-02T13:07:21.733Z",
+      "updated_at": "2024-03-02T13:07:21.733Z"
+    },
+    {
+      "id": 42,
+      "member_id": 2,
+      "weekly_collection_id": 4,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-03-02T13:07:34.228Z",
+      "updated_at": "2024-03-02T13:07:34.228Z"
+    },
+    {
+      "id": 46,
+      "member_id": 7,
+      "weekly_collection_id": 4,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-03-02T13:07:34.234Z",
+      "updated_at": "2024-03-02T13:07:34.234Z"
+    },
+    {
+      "id": 48,
+      "member_id": 9,
+      "weekly_collection_id": 4,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-03-02T13:07:34.236Z",
+      "updated_at": "2024-03-02T13:07:34.236Z"
+    },
+    {
+      "id": 49,
+      "member_id": 11,
+      "weekly_collection_id": 4,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-03-02T13:07:34.237Z",
+      "updated_at": "2024-03-02T13:07:34.237Z"
+    },
+    {
+      "id": 55,
+      "member_id": 1,
+      "weekly_collection_id": 5,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-03-02T13:08:04.450Z",
+      "updated_at": "2024-03-02T13:08:04.450Z"
+    },
+    {
+      "id": 56,
+      "member_id": 2,
+      "weekly_collection_id": 5,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-03-02T13:08:04.455Z",
+      "updated_at": "2024-03-02T13:08:04.455Z"
+    },
+    {
+      "id": 58,
+      "member_id": 4,
+      "weekly_collection_id": 5,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-03-02T13:08:04.477Z",
+      "updated_at": "2024-03-02T13:08:04.477Z"
+    },
+    {
+      "id": 60,
+      "member_id": 7,
+      "weekly_collection_id": 5,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-03-02T13:08:04.533Z",
+      "updated_at": "2024-03-02T13:08:04.533Z"
+    },
+    {
+      "id": 62,
+      "member_id": 9,
+      "weekly_collection_id": 5,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-03-02T13:08:04.546Z",
+      "updated_at": "2024-03-02T13:08:04.546Z"
+    },
+    {
+      "id": 63,
+      "member_id": 11,
+      "weekly_collection_id": 5,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-03-02T13:08:04.549Z",
+      "updated_at": "2024-03-02T13:08:04.549Z"
+    },
+    {
+      "id": 67,
+      "member_id": 16,
+      "weekly_collection_id": 5,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-03-02T13:08:04.564Z",
+      "updated_at": "2024-03-02T13:08:04.564Z"
+    },
+    {
+      "id": 68,
+      "member_id": 17,
+      "weekly_collection_id": 5,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-03-02T13:08:04.566Z",
+      "updated_at": "2024-03-02T13:08:04.566Z"
+    },
+    {
+      "id": 29,
+      "member_id": 3,
+      "weekly_collection_id": 3,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-02T13:08:12.373Z",
+      "created_at": "2024-03-02T13:07:21.642Z",
+      "updated_at": "2024-03-02T13:08:12.373Z"
+    },
+    {
+      "id": 43,
+      "member_id": 3,
+      "weekly_collection_id": 4,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-02T13:08:13.536Z",
+      "created_at": "2024-03-02T13:07:34.229Z",
+      "updated_at": "2024-03-02T13:08:13.536Z"
+    },
+    {
+      "id": 57,
+      "member_id": 3,
+      "weekly_collection_id": 5,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-02T13:08:14.778Z",
+      "created_at": "2024-03-02T13:08:04.468Z",
+      "updated_at": "2024-03-02T13:08:14.778Z"
+    },
+    {
+      "id": 26,
+      "member_id": 17,
+      "weekly_collection_id": 2,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-09T01:34:34.547Z",
+      "created_at": "2024-03-02T01:14:28.357Z",
+      "updated_at": "2024-03-09T01:34:34.548Z"
+    },
+    {
+      "id": 33,
+      "member_id": 8,
+      "weekly_collection_id": 3,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-09T02:50:41.678Z",
+      "created_at": "2024-03-02T13:07:21.645Z",
+      "updated_at": "2024-03-09T02:50:41.678Z"
+    },
+    {
+      "id": 36,
+      "member_id": 12,
+      "weekly_collection_id": 3,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-09T02:50:50.177Z",
+      "created_at": "2024-03-02T13:07:21.736Z",
+      "updated_at": "2024-03-09T02:50:50.178Z"
+    },
+    {
+      "id": 40,
+      "member_id": 17,
+      "weekly_collection_id": 3,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-10T14:43:58.982Z",
+      "created_at": "2024-03-02T13:07:21.740Z",
+      "updated_at": "2024-03-10T14:43:58.983Z"
+    },
+    {
+      "id": 54,
+      "member_id": 17,
+      "weekly_collection_id": 4,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-10T14:44:34.714Z",
+      "created_at": "2024-03-02T13:07:34.243Z",
+      "updated_at": "2024-03-10T14:44:34.714Z"
+    },
+    {
+      "id": 25,
+      "member_id": 16,
+      "weekly_collection_id": 2,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-16T02:28:58.612Z",
+      "created_at": "2024-03-02T01:14:28.354Z",
+      "updated_at": "2024-03-16T02:28:58.613Z"
+    },
+    {
+      "id": 39,
+      "member_id": 16,
+      "weekly_collection_id": 3,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-16T02:29:10.519Z",
+      "created_at": "2024-03-02T13:07:21.739Z",
+      "updated_at": "2024-03-16T02:29:10.520Z"
+    },
+    {
+      "id": 53,
+      "member_id": 16,
+      "weekly_collection_id": 4,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-16T02:29:12.143Z",
+      "created_at": "2024-03-02T13:07:34.242Z",
+      "updated_at": "2024-03-16T02:29:12.144Z"
+    },
+    {
+      "id": 50,
+      "member_id": 12,
+      "weekly_collection_id": 4,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-16T02:29:26.227Z",
+      "created_at": "2024-03-02T13:07:34.238Z",
+      "updated_at": "2024-03-16T02:29:26.227Z"
+    },
+    {
+      "id": 64,
+      "member_id": 12,
+      "weekly_collection_id": 5,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-16T02:29:27.636Z",
+      "created_at": "2024-03-02T13:08:04.552Z",
+      "updated_at": "2024-03-16T02:29:27.636Z"
+    },
+    {
+      "id": 47,
+      "member_id": 8,
+      "weekly_collection_id": 4,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-16T02:29:35.129Z",
+      "created_at": "2024-03-02T13:07:34.235Z",
+      "updated_at": "2024-03-16T02:29:35.129Z"
+    },
+    {
+      "id": 61,
+      "member_id": 8,
+      "weekly_collection_id": 5,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-16T02:29:36.098Z",
+      "created_at": "2024-03-02T13:08:04.537Z",
+      "updated_at": "2024-03-16T02:29:36.098Z"
+    },
+    {
+      "id": 27,
+      "member_id": 1,
+      "weekly_collection_id": 3,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-16T14:43:41.572Z",
+      "created_at": "2024-03-02T13:07:21.638Z",
+      "updated_at": "2024-03-16T14:43:41.572Z"
+    },
+    {
+      "id": 41,
+      "member_id": 1,
+      "weekly_collection_id": 4,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-16T14:43:42.599Z",
+      "created_at": "2024-03-02T13:07:34.227Z",
+      "updated_at": "2024-03-16T14:43:42.599Z"
+    },
+    {
+      "id": 69,
+      "member_id": 1,
+      "weekly_collection_id": 6,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-03-16T14:44:04.624Z",
+      "updated_at": "2024-03-16T14:44:04.624Z"
+    },
+    {
+      "id": 70,
+      "member_id": 2,
+      "weekly_collection_id": 6,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-03-16T14:44:04.626Z",
+      "updated_at": "2024-03-16T14:44:04.626Z"
+    },
+    {
+      "id": 71,
+      "member_id": 3,
+      "weekly_collection_id": 6,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-03-16T14:44:04.627Z",
+      "updated_at": "2024-03-16T14:44:04.627Z"
+    },
+    {
+      "id": 72,
+      "member_id": 4,
+      "weekly_collection_id": 6,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-03-16T14:44:04.628Z",
+      "updated_at": "2024-03-16T14:44:04.628Z"
+    },
+    {
+      "id": 74,
+      "member_id": 7,
+      "weekly_collection_id": 6,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-03-16T14:44:04.630Z",
+      "updated_at": "2024-03-16T14:44:04.630Z"
+    },
+    {
+      "id": 76,
+      "member_id": 9,
+      "weekly_collection_id": 6,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-03-16T14:44:04.632Z",
+      "updated_at": "2024-03-16T14:44:04.632Z"
+    },
+    {
+      "id": 77,
+      "member_id": 11,
+      "weekly_collection_id": 6,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-03-16T14:44:04.632Z",
+      "updated_at": "2024-03-16T14:44:04.632Z"
+    },
+    {
+      "id": 5,
+      "member_id": 5,
+      "weekly_collection_id": 1,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-16T14:44:15.966Z",
+      "created_at": "2024-02-27T02:52:45.148Z",
+      "updated_at": "2024-03-16T14:44:15.966Z"
+    },
+    {
+      "id": 17,
+      "member_id": 5,
+      "weekly_collection_id": 2,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-16T14:44:16.896Z",
+      "created_at": "2024-03-02T01:14:28.339Z",
+      "updated_at": "2024-03-16T14:44:16.896Z"
+    },
+    {
+      "id": 31,
+      "member_id": 5,
+      "weekly_collection_id": 3,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-16T14:44:17.812Z",
+      "created_at": "2024-03-02T13:07:21.644Z",
+      "updated_at": "2024-03-16T14:44:17.812Z"
+    },
+    {
+      "id": 45,
+      "member_id": 5,
+      "weekly_collection_id": 4,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-16T14:44:18.562Z",
+      "created_at": "2024-03-02T13:07:34.232Z",
+      "updated_at": "2024-03-16T14:44:18.562Z"
+    },
+    {
+      "id": 59,
+      "member_id": 5,
+      "weekly_collection_id": 5,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-16T14:44:19.611Z",
+      "created_at": "2024-03-02T13:08:04.480Z",
+      "updated_at": "2024-03-16T14:44:19.611Z"
+    },
+    {
+      "id": 73,
+      "member_id": 5,
+      "weekly_collection_id": 6,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-03-16T14:44:20.316Z",
+      "created_at": "2024-03-16T14:44:04.629Z",
+      "updated_at": "2024-03-16T14:44:20.316Z"
+    },
+    {
+      "id": 4,
+      "member_id": 4,
+      "weekly_collection_id": 1,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-04-27T02:07:10.545Z",
+      "created_at": "2024-02-27T02:52:45.046Z",
+      "updated_at": "2024-04-27T02:07:10.546Z"
+    },
+    {
+      "id": 16,
+      "member_id": 4,
+      "weekly_collection_id": 2,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-04-27T02:07:11.600Z",
+      "created_at": "2024-03-02T01:14:28.337Z",
+      "updated_at": "2024-04-27T02:07:11.601Z"
+    },
+    {
+      "id": 30,
+      "member_id": 4,
+      "weekly_collection_id": 3,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-04-27T02:07:12.753Z",
+      "created_at": "2024-03-02T13:07:21.643Z",
+      "updated_at": "2024-04-27T02:07:12.754Z"
+    },
+    {
+      "id": 44,
+      "member_id": 4,
+      "weekly_collection_id": 4,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-04-27T02:07:13.731Z",
+      "created_at": "2024-03-02T13:07:34.230Z",
+      "updated_at": "2024-04-27T02:07:13.732Z"
+    },
+    {
+      "id": 20,
+      "member_id": 9,
+      "weekly_collection_id": 2,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-11T03:03:24.367Z",
+      "created_at": "2024-03-02T01:14:28.344Z",
+      "updated_at": "2024-05-11T03:03:24.368Z"
+    },
+    {
+      "id": 75,
+      "member_id": 8,
+      "weekly_collection_id": 6,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-13T19:28:17.918Z",
+      "created_at": "2024-03-16T14:44:04.631Z",
+      "updated_at": "2024-05-13T19:28:17.919Z"
+    },
+    {
+      "id": 78,
+      "member_id": 12,
+      "weekly_collection_id": 6,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-13T19:28:34.201Z",
+      "created_at": "2024-03-16T14:44:04.633Z",
+      "updated_at": "2024-05-13T19:28:34.202Z"
+    },
+    {
+      "id": 12,
+      "member_id": 14,
+      "weekly_collection_id": 1,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-16T17:27:48.131Z",
+      "created_at": "2024-02-27T02:52:45.234Z",
+      "updated_at": "2024-05-16T17:27:48.132Z"
+    },
+    {
+      "id": 24,
+      "member_id": 14,
+      "weekly_collection_id": 2,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-16T17:27:49.067Z",
+      "created_at": "2024-03-02T01:14:28.353Z",
+      "updated_at": "2024-05-16T17:27:49.068Z"
+    },
+    {
+      "id": 38,
+      "member_id": 14,
+      "weekly_collection_id": 3,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-16T17:27:49.861Z",
+      "created_at": "2024-03-02T13:07:21.739Z",
+      "updated_at": "2024-05-16T17:27:49.861Z"
+    },
+    {
+      "id": 52,
+      "member_id": 14,
+      "weekly_collection_id": 4,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-16T17:27:50.794Z",
+      "created_at": "2024-03-02T13:07:34.241Z",
+      "updated_at": "2024-05-16T17:27:50.794Z"
+    },
+    {
+      "id": 66,
+      "member_id": 14,
+      "weekly_collection_id": 5,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-16T17:27:51.840Z",
+      "created_at": "2024-03-02T13:08:04.561Z",
+      "updated_at": "2024-05-16T17:27:51.841Z"
+    },
+    {
+      "id": 80,
+      "member_id": 14,
+      "weekly_collection_id": 6,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-16T17:27:52.708Z",
+      "created_at": "2024-03-16T14:44:04.635Z",
+      "updated_at": "2024-05-16T17:27:52.709Z"
+    },
+    {
+      "id": 11,
+      "member_id": 13,
+      "weekly_collection_id": 1,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-16T17:28:05.403Z",
+      "created_at": "2024-02-27T02:52:45.233Z",
+      "updated_at": "2024-05-16T17:28:05.403Z"
+    },
+    {
+      "id": 23,
+      "member_id": 13,
+      "weekly_collection_id": 2,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-16T17:28:06.238Z",
+      "created_at": "2024-03-02T01:14:28.350Z",
+      "updated_at": "2024-05-16T17:28:06.238Z"
+    },
+    {
+      "id": 37,
+      "member_id": 13,
+      "weekly_collection_id": 3,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-16T17:28:07.211Z",
+      "created_at": "2024-03-02T13:07:21.738Z",
+      "updated_at": "2024-05-16T17:28:07.211Z"
+    },
+    {
+      "id": 51,
+      "member_id": 13,
+      "weekly_collection_id": 4,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-16T17:28:07.990Z",
+      "created_at": "2024-03-02T13:07:34.239Z",
+      "updated_at": "2024-05-16T17:28:07.991Z"
+    },
+    {
+      "id": 65,
+      "member_id": 13,
+      "weekly_collection_id": 5,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-16T17:28:08.721Z",
+      "created_at": "2024-03-02T13:08:04.557Z",
+      "updated_at": "2024-05-16T17:28:08.721Z"
+    },
+    {
+      "id": 79,
+      "member_id": 13,
+      "weekly_collection_id": 6,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-16T17:28:09.458Z",
+      "created_at": "2024-03-16T14:44:04.634Z",
+      "updated_at": "2024-05-16T17:28:09.458Z"
+    },
+    {
+      "id": 81,
+      "member_id": 16,
+      "weekly_collection_id": 6,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-03-16T14:44:04.636Z",
+      "updated_at": "2024-03-16T14:44:04.636Z"
+    },
+    {
+      "id": 82,
+      "member_id": 17,
+      "weekly_collection_id": 6,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-03-16T14:44:04.637Z",
+      "updated_at": "2024-03-16T14:44:04.637Z"
+    },
+    {
+      "id": 83,
+      "member_id": 1,
+      "weekly_collection_id": 7,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:06:38.737Z",
+      "updated_at": "2024-05-05T18:06:38.737Z"
+    },
+    {
+      "id": 84,
+      "member_id": 3,
+      "weekly_collection_id": 7,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:06:38.744Z",
+      "updated_at": "2024-05-05T18:06:38.744Z"
+    },
+    {
+      "id": 85,
+      "member_id": 4,
+      "weekly_collection_id": 7,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:06:38.748Z",
+      "updated_at": "2024-05-05T18:06:38.748Z"
+    },
+    {
+      "id": 86,
+      "member_id": 5,
+      "weekly_collection_id": 7,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:06:38.749Z",
+      "updated_at": "2024-05-05T18:06:38.749Z"
+    },
+    {
+      "id": 87,
+      "member_id": 7,
+      "weekly_collection_id": 7,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:06:38.759Z",
+      "updated_at": "2024-05-05T18:06:38.759Z"
+    },
+    {
+      "id": 89,
+      "member_id": 9,
+      "weekly_collection_id": 7,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:06:38.814Z",
+      "updated_at": "2024-05-05T18:06:38.814Z"
+    },
+    {
+      "id": 90,
+      "member_id": 11,
+      "weekly_collection_id": 7,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:06:38.817Z",
+      "updated_at": "2024-05-05T18:06:38.817Z"
+    },
+    {
+      "id": 94,
+      "member_id": 16,
+      "weekly_collection_id": 7,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:06:38.915Z",
+      "updated_at": "2024-05-05T18:06:38.915Z"
+    },
+    {
+      "id": 95,
+      "member_id": 17,
+      "weekly_collection_id": 7,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:06:38.920Z",
+      "updated_at": "2024-05-05T18:06:38.920Z"
+    },
+    {
+      "id": 96,
+      "member_id": 1,
+      "weekly_collection_id": 8,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:06:56.232Z",
+      "updated_at": "2024-05-05T18:06:56.232Z"
+    },
+    {
+      "id": 97,
+      "member_id": 3,
+      "weekly_collection_id": 8,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:06:56.234Z",
+      "updated_at": "2024-05-05T18:06:56.234Z"
+    },
+    {
+      "id": 98,
+      "member_id": 4,
+      "weekly_collection_id": 8,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:06:56.235Z",
+      "updated_at": "2024-05-05T18:06:56.235Z"
+    },
+    {
+      "id": 99,
+      "member_id": 5,
+      "weekly_collection_id": 8,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:06:56.237Z",
+      "updated_at": "2024-05-05T18:06:56.237Z"
+    },
+    {
+      "id": 100,
+      "member_id": 7,
+      "weekly_collection_id": 8,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:06:56.238Z",
+      "updated_at": "2024-05-05T18:06:56.238Z"
+    },
+    {
+      "id": 102,
+      "member_id": 9,
+      "weekly_collection_id": 8,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:06:56.242Z",
+      "updated_at": "2024-05-05T18:06:56.242Z"
+    },
+    {
+      "id": 103,
+      "member_id": 11,
+      "weekly_collection_id": 8,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:06:56.244Z",
+      "updated_at": "2024-05-05T18:06:56.244Z"
+    },
+    {
+      "id": 107,
+      "member_id": 16,
+      "weekly_collection_id": 8,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:06:56.254Z",
+      "updated_at": "2024-05-05T18:06:56.254Z"
+    },
+    {
+      "id": 108,
+      "member_id": 17,
+      "weekly_collection_id": 8,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:06:56.255Z",
+      "updated_at": "2024-05-05T18:06:56.255Z"
+    },
+    {
+      "id": 109,
+      "member_id": 1,
+      "weekly_collection_id": 9,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:07:08.415Z",
+      "updated_at": "2024-05-05T18:07:08.415Z"
+    },
+    {
+      "id": 110,
+      "member_id": 3,
+      "weekly_collection_id": 9,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:07:08.417Z",
+      "updated_at": "2024-05-05T18:07:08.417Z"
+    },
+    {
+      "id": 111,
+      "member_id": 4,
+      "weekly_collection_id": 9,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:07:08.418Z",
+      "updated_at": "2024-05-05T18:07:08.418Z"
+    },
+    {
+      "id": 112,
+      "member_id": 5,
+      "weekly_collection_id": 9,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:07:08.419Z",
+      "updated_at": "2024-05-05T18:07:08.419Z"
+    },
+    {
+      "id": 113,
+      "member_id": 7,
+      "weekly_collection_id": 9,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:07:08.420Z",
+      "updated_at": "2024-05-05T18:07:08.420Z"
+    },
+    {
+      "id": 115,
+      "member_id": 9,
+      "weekly_collection_id": 9,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:07:08.515Z",
+      "updated_at": "2024-05-05T18:07:08.515Z"
+    },
+    {
+      "id": 116,
+      "member_id": 11,
+      "weekly_collection_id": 9,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:07:08.517Z",
+      "updated_at": "2024-05-05T18:07:08.517Z"
+    },
+    {
+      "id": 120,
+      "member_id": 16,
+      "weekly_collection_id": 9,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:07:08.521Z",
+      "updated_at": "2024-05-05T18:07:08.521Z"
+    },
+    {
+      "id": 121,
+      "member_id": 17,
+      "weekly_collection_id": 9,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:07:08.522Z",
+      "updated_at": "2024-05-05T18:07:08.522Z"
+    },
+    {
+      "id": 122,
+      "member_id": 1,
+      "weekly_collection_id": 10,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:07:24.077Z",
+      "updated_at": "2024-05-05T18:07:24.077Z"
+    },
+    {
+      "id": 123,
+      "member_id": 3,
+      "weekly_collection_id": 10,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:07:24.078Z",
+      "updated_at": "2024-05-05T18:07:24.078Z"
+    },
+    {
+      "id": 124,
+      "member_id": 4,
+      "weekly_collection_id": 10,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:07:24.079Z",
+      "updated_at": "2024-05-05T18:07:24.079Z"
+    },
+    {
+      "id": 125,
+      "member_id": 5,
+      "weekly_collection_id": 10,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:07:24.079Z",
+      "updated_at": "2024-05-05T18:07:24.079Z"
+    },
+    {
+      "id": 126,
+      "member_id": 7,
+      "weekly_collection_id": 10,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:07:24.080Z",
+      "updated_at": "2024-05-05T18:07:24.080Z"
+    },
+    {
+      "id": 128,
+      "member_id": 9,
+      "weekly_collection_id": 10,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:07:24.082Z",
+      "updated_at": "2024-05-05T18:07:24.082Z"
+    },
+    {
+      "id": 129,
+      "member_id": 11,
+      "weekly_collection_id": 10,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:07:24.083Z",
+      "updated_at": "2024-05-05T18:07:24.083Z"
+    },
+    {
+      "id": 133,
+      "member_id": 16,
+      "weekly_collection_id": 10,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:07:24.088Z",
+      "updated_at": "2024-05-05T18:07:24.088Z"
+    },
+    {
+      "id": 134,
+      "member_id": 17,
+      "weekly_collection_id": 10,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:07:24.088Z",
+      "updated_at": "2024-05-05T18:07:24.088Z"
+    },
+    {
+      "id": 135,
+      "member_id": 1,
+      "weekly_collection_id": 11,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:23:47.947Z",
+      "updated_at": "2024-05-05T18:23:47.947Z"
+    },
+    {
+      "id": 136,
+      "member_id": 3,
+      "weekly_collection_id": 11,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:23:47.948Z",
+      "updated_at": "2024-05-05T18:23:47.948Z"
+    },
+    {
+      "id": 137,
+      "member_id": 4,
+      "weekly_collection_id": 11,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:23:47.950Z",
+      "updated_at": "2024-05-05T18:23:47.950Z"
+    },
+    {
+      "id": 138,
+      "member_id": 5,
+      "weekly_collection_id": 11,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:23:47.951Z",
+      "updated_at": "2024-05-05T18:23:47.951Z"
+    },
+    {
+      "id": 139,
+      "member_id": 7,
+      "weekly_collection_id": 11,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:23:47.952Z",
+      "updated_at": "2024-05-05T18:23:47.952Z"
+    },
+    {
+      "id": 141,
+      "member_id": 9,
+      "weekly_collection_id": 11,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:23:47.955Z",
+      "updated_at": "2024-05-05T18:23:47.955Z"
+    },
+    {
+      "id": 142,
+      "member_id": 11,
+      "weekly_collection_id": 11,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:23:47.956Z",
+      "updated_at": "2024-05-05T18:23:47.956Z"
+    },
+    {
+      "id": 144,
+      "member_id": 13,
+      "weekly_collection_id": 11,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:23:47.958Z",
+      "updated_at": "2024-05-05T18:23:47.958Z"
+    },
+    {
+      "id": 145,
+      "member_id": 14,
+      "weekly_collection_id": 11,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:23:47.959Z",
+      "updated_at": "2024-05-05T18:23:47.959Z"
+    },
+    {
+      "id": 146,
+      "member_id": 16,
+      "weekly_collection_id": 11,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:23:48.001Z",
+      "updated_at": "2024-05-05T18:23:48.001Z"
+    },
+    {
+      "id": 147,
+      "member_id": 17,
+      "weekly_collection_id": 11,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:23:48.003Z",
+      "updated_at": "2024-05-05T18:23:48.003Z"
+    },
+    {
+      "id": 148,
+      "member_id": 10,
+      "weekly_collection_id": 11,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:23:48.005Z",
+      "updated_at": "2024-05-05T18:23:48.005Z"
+    },
+    {
+      "id": 149,
+      "member_id": 1,
+      "weekly_collection_id": 12,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:24:36.325Z",
+      "updated_at": "2024-05-05T18:24:36.325Z"
+    },
+    {
+      "id": 150,
+      "member_id": 3,
+      "weekly_collection_id": 12,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:24:36.326Z",
+      "updated_at": "2024-05-05T18:24:36.326Z"
+    },
+    {
+      "id": 151,
+      "member_id": 4,
+      "weekly_collection_id": 12,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:24:36.327Z",
+      "updated_at": "2024-05-05T18:24:36.327Z"
+    },
+    {
+      "id": 152,
+      "member_id": 5,
+      "weekly_collection_id": 12,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:24:36.328Z",
+      "updated_at": "2024-05-05T18:24:36.328Z"
+    },
+    {
+      "id": 153,
+      "member_id": 7,
+      "weekly_collection_id": 12,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:24:36.329Z",
+      "updated_at": "2024-05-05T18:24:36.329Z"
+    },
+    {
+      "id": 155,
+      "member_id": 9,
+      "weekly_collection_id": 12,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:24:36.331Z",
+      "updated_at": "2024-05-05T18:24:36.331Z"
+    },
+    {
+      "id": 156,
+      "member_id": 11,
+      "weekly_collection_id": 12,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:24:36.332Z",
+      "updated_at": "2024-05-05T18:24:36.332Z"
+    },
+    {
+      "id": 158,
+      "member_id": 13,
+      "weekly_collection_id": 12,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:24:36.334Z",
+      "updated_at": "2024-05-05T18:24:36.334Z"
+    },
+    {
+      "id": 159,
+      "member_id": 14,
+      "weekly_collection_id": 12,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:24:36.335Z",
+      "updated_at": "2024-05-05T18:24:36.335Z"
+    },
+    {
+      "id": 160,
+      "member_id": 16,
+      "weekly_collection_id": 12,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:24:36.336Z",
+      "updated_at": "2024-05-05T18:24:36.336Z"
+    },
+    {
+      "id": 161,
+      "member_id": 17,
+      "weekly_collection_id": 12,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:24:36.337Z",
+      "updated_at": "2024-05-05T18:24:36.337Z"
+    },
+    {
+      "id": 162,
+      "member_id": 10,
+      "weekly_collection_id": 12,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:24:36.338Z",
+      "updated_at": "2024-05-05T18:24:36.338Z"
+    },
+    {
+      "id": 163,
+      "member_id": 2,
+      "weekly_collection_id": 12,
+      "status": "unpaid",
+      "amount": "5.0",
+      "paid_date": null,
+      "created_at": "2024-05-05T18:24:36.339Z",
+      "updated_at": "2024-05-05T18:24:36.339Z"
+    },
+    {
+      "id": 88,
+      "member_id": 8,
+      "weekly_collection_id": 7,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-13T19:28:19.126Z",
+      "created_at": "2024-05-05T18:06:38.766Z",
+      "updated_at": "2024-05-13T19:28:19.126Z"
+    },
+    {
+      "id": 101,
+      "member_id": 8,
+      "weekly_collection_id": 8,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-13T19:28:19.986Z",
+      "created_at": "2024-05-05T18:06:56.240Z",
+      "updated_at": "2024-05-13T19:28:19.987Z"
+    },
+    {
+      "id": 114,
+      "member_id": 8,
+      "weekly_collection_id": 9,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-13T19:28:20.773Z",
+      "created_at": "2024-05-05T18:07:08.514Z",
+      "updated_at": "2024-05-13T19:28:20.773Z"
+    },
+    {
+      "id": 127,
+      "member_id": 8,
+      "weekly_collection_id": 10,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-13T19:28:22.077Z",
+      "created_at": "2024-05-05T18:07:24.081Z",
+      "updated_at": "2024-05-13T19:28:22.077Z"
+    },
+    {
+      "id": 140,
+      "member_id": 8,
+      "weekly_collection_id": 11,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-13T19:28:22.878Z",
+      "created_at": "2024-05-05T18:23:47.954Z",
+      "updated_at": "2024-05-13T19:28:22.878Z"
+    },
+    {
+      "id": 154,
+      "member_id": 8,
+      "weekly_collection_id": 12,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-13T19:28:23.846Z",
+      "created_at": "2024-05-05T18:24:36.330Z",
+      "updated_at": "2024-05-13T19:28:23.846Z"
+    },
+    {
+      "id": 91,
+      "member_id": 12,
+      "weekly_collection_id": 7,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-13T19:28:35.022Z",
+      "created_at": "2024-05-05T18:06:38.824Z",
+      "updated_at": "2024-05-13T19:28:35.022Z"
+    },
+    {
+      "id": 104,
+      "member_id": 12,
+      "weekly_collection_id": 8,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-13T19:28:35.792Z",
+      "created_at": "2024-05-05T18:06:56.245Z",
+      "updated_at": "2024-05-13T19:28:35.792Z"
+    },
+    {
+      "id": 117,
+      "member_id": 12,
+      "weekly_collection_id": 9,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-13T19:28:36.806Z",
+      "created_at": "2024-05-05T18:07:08.518Z",
+      "updated_at": "2024-05-13T19:28:36.807Z"
+    },
+    {
+      "id": 130,
+      "member_id": 12,
+      "weekly_collection_id": 10,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-13T19:28:37.849Z",
+      "created_at": "2024-05-05T18:07:24.084Z",
+      "updated_at": "2024-05-13T19:28:37.849Z"
+    },
+    {
+      "id": 143,
+      "member_id": 12,
+      "weekly_collection_id": 11,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-13T19:28:39.219Z",
+      "created_at": "2024-05-05T18:23:47.957Z",
+      "updated_at": "2024-05-13T19:28:39.219Z"
+    },
+    {
+      "id": 157,
+      "member_id": 12,
+      "weekly_collection_id": 12,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-13T19:28:40.176Z",
+      "created_at": "2024-05-05T18:24:36.334Z",
+      "updated_at": "2024-05-13T19:28:40.176Z"
+    },
+    {
+      "id": 93,
+      "member_id": 14,
+      "weekly_collection_id": 7,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-16T17:27:53.755Z",
+      "created_at": "2024-05-05T18:06:38.912Z",
+      "updated_at": "2024-05-16T17:27:53.756Z"
+    },
+    {
+      "id": 106,
+      "member_id": 14,
+      "weekly_collection_id": 8,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-16T17:27:54.504Z",
+      "created_at": "2024-05-05T18:06:56.247Z",
+      "updated_at": "2024-05-16T17:27:54.505Z"
+    },
+    {
+      "id": 119,
+      "member_id": 14,
+      "weekly_collection_id": 9,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-16T17:27:55.231Z",
+      "created_at": "2024-05-05T18:07:08.520Z",
+      "updated_at": "2024-05-16T17:27:55.232Z"
+    },
+    {
+      "id": 132,
+      "member_id": 14,
+      "weekly_collection_id": 10,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-16T17:27:56.011Z",
+      "created_at": "2024-05-05T18:07:24.087Z",
+      "updated_at": "2024-05-16T17:27:56.011Z"
+    },
+    {
+      "id": 92,
+      "member_id": 13,
+      "weekly_collection_id": 7,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-16T17:28:10.452Z",
+      "created_at": "2024-05-05T18:06:38.904Z",
+      "updated_at": "2024-05-16T17:28:10.452Z"
+    },
+    {
+      "id": 105,
+      "member_id": 13,
+      "weekly_collection_id": 8,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-16T17:28:11.478Z",
+      "created_at": "2024-05-05T18:06:56.246Z",
+      "updated_at": "2024-05-16T17:28:11.478Z"
+    },
+    {
+      "id": 118,
+      "member_id": 13,
+      "weekly_collection_id": 9,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-16T17:28:12.400Z",
+      "created_at": "2024-05-05T18:07:08.519Z",
+      "updated_at": "2024-05-16T17:28:12.401Z"
+    },
+    {
+      "id": 131,
+      "member_id": 13,
+      "weekly_collection_id": 10,
+      "status": "paid",
+      "amount": "5.0",
+      "paid_date": "2024-05-16T17:28:13.740Z",
+      "created_at": "2024-05-05T18:07:24.085Z",
+      "updated_at": "2024-05-16T17:28:13.740Z"
+    }
+  ],
+  "balances": [
+    {
+      "id": 1,
+      "type_movement": "income",
+      "amount": "1382.0",
+      "member_id": 12,
+      "income_type": "weekly",
+      "previous_balance": "0.0",
+      "current_balance": "1382.0",
+      "created_at": "2024-02-27T02:46:40.569Z",
+      "updated_at": "2024-02-27T02:46:40.569Z"
+    },
+    {
+      "id": 2,
+      "type_movement": "expense",
+      "amount": "340.0",
+      "member_id": 3,
+      "income_type": "weekly",
+      "previous_balance": "1382.0",
+      "current_balance": "1042.0",
+      "created_at": "2024-02-27T02:52:30.547Z",
+      "updated_at": "2024-02-27T02:52:30.547Z"
+    },
+    {
+      "id": 3,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 7,
+      "income_type": "weekly",
+      "previous_balance": "1042.0",
+      "current_balance": "1047.0",
+      "created_at": "2024-02-27T02:53:00.340Z",
+      "updated_at": "2024-02-27T02:53:00.340Z"
+    },
+    {
+      "id": 4,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 2,
+      "income_type": "weekly",
+      "previous_balance": "1047.0",
+      "current_balance": "1052.0",
+      "created_at": "2024-02-27T02:53:02.281Z",
+      "updated_at": "2024-02-27T02:53:02.281Z"
+    },
+    {
+      "id": 5,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 1,
+      "income_type": "weekly",
+      "previous_balance": "1052.0",
+      "current_balance": "1057.0",
+      "created_at": "2024-02-27T02:53:03.690Z",
+      "updated_at": "2024-02-27T02:53:03.690Z"
+    },
+    {
+      "id": 6,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 3,
+      "income_type": "weekly",
+      "previous_balance": "1057.0",
+      "current_balance": "1062.0",
+      "created_at": "2024-02-27T02:53:08.098Z",
+      "updated_at": "2024-02-27T02:53:08.098Z"
+    },
+    {
+      "id": 7,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 11,
+      "income_type": "weekly",
+      "previous_balance": "1062.0",
+      "current_balance": "1067.0",
+      "created_at": "2024-02-27T02:53:11.087Z",
+      "updated_at": "2024-02-27T02:53:11.087Z"
+    },
+    {
+      "id": 8,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 9,
+      "income_type": "weekly",
+      "previous_balance": "1067.0",
+      "current_balance": "1072.0",
+      "created_at": "2024-02-27T02:53:12.294Z",
+      "updated_at": "2024-02-27T02:53:12.294Z"
+    },
+    {
+      "id": 9,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 8,
+      "income_type": "weekly",
+      "previous_balance": "1072.0",
+      "current_balance": "1077.0",
+      "created_at": "2024-02-27T02:55:04.426Z",
+      "updated_at": "2024-02-27T02:55:04.426Z"
+    },
+    {
+      "id": 10,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 12,
+      "income_type": "weekly",
+      "previous_balance": "1077.0",
+      "current_balance": "1082.0",
+      "created_at": "2024-02-27T02:55:06.396Z",
+      "updated_at": "2024-02-27T02:55:06.396Z"
+    },
+    {
+      "id": 11,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 1,
+      "income_type": "weekly",
+      "previous_balance": "1082.0",
+      "current_balance": "1087.0",
+      "created_at": "2024-03-02T01:14:33.059Z",
+      "updated_at": "2024-03-02T01:14:33.059Z"
+    },
+    {
+      "id": 12,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 2,
+      "income_type": "weekly",
+      "previous_balance": "1087.0",
+      "current_balance": "1092.0",
+      "created_at": "2024-03-02T03:07:35.060Z",
+      "updated_at": "2024-03-02T03:07:35.060Z"
+    },
+    {
+      "id": 13,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 12,
+      "income_type": "weekly",
+      "previous_balance": "1092.0",
+      "current_balance": "1097.0",
+      "created_at": "2024-03-02T03:07:49.965Z",
+      "updated_at": "2024-03-02T03:07:49.965Z"
+    },
+    {
+      "id": 14,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 8,
+      "income_type": "weekly",
+      "previous_balance": "1097.0",
+      "current_balance": "1102.0",
+      "created_at": "2024-03-02T03:07:51.318Z",
+      "updated_at": "2024-03-02T03:07:51.318Z"
+    },
+    {
+      "id": 15,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 7,
+      "income_type": "weekly",
+      "previous_balance": "1102.0",
+      "current_balance": "1107.0",
+      "created_at": "2024-03-02T03:08:19.919Z",
+      "updated_at": "2024-03-02T03:08:19.919Z"
+    },
+    {
+      "id": 16,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 3,
+      "income_type": "weekly",
+      "previous_balance": "1107.0",
+      "current_balance": "1112.0",
+      "created_at": "2024-03-02T03:09:17.141Z",
+      "updated_at": "2024-03-02T03:09:17.141Z"
+    },
+    {
+      "id": 17,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 3,
+      "income_type": "weekly",
+      "previous_balance": "1112.0",
+      "current_balance": "1117.0",
+      "created_at": "2024-03-02T13:08:12.390Z",
+      "updated_at": "2024-03-02T13:08:12.390Z"
+    },
+    {
+      "id": 18,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 3,
+      "income_type": "weekly",
+      "previous_balance": "1117.0",
+      "current_balance": "1122.0",
+      "created_at": "2024-03-02T13:08:13.545Z",
+      "updated_at": "2024-03-02T13:08:13.545Z"
+    },
+    {
+      "id": 19,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 3,
+      "income_type": "weekly",
+      "previous_balance": "1122.0",
+      "current_balance": "1127.0",
+      "created_at": "2024-03-02T13:08:14.788Z",
+      "updated_at": "2024-03-02T13:08:14.788Z"
+    },
+    {
+      "id": 20,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 17,
+      "income_type": "weekly",
+      "previous_balance": "1127.0",
+      "current_balance": "1132.0",
+      "created_at": "2024-03-09T01:34:34.562Z",
+      "updated_at": "2024-03-09T01:34:34.562Z"
+    },
+    {
+      "id": 21,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 8,
+      "income_type": "weekly",
+      "previous_balance": "1132.0",
+      "current_balance": "1137.0",
+      "created_at": "2024-03-09T02:50:41.741Z",
+      "updated_at": "2024-03-09T02:50:41.741Z"
+    },
+    {
+      "id": 22,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 12,
+      "income_type": "weekly",
+      "previous_balance": "1137.0",
+      "current_balance": "1142.0",
+      "created_at": "2024-03-09T02:50:50.183Z",
+      "updated_at": "2024-03-09T02:50:50.183Z"
+    },
+    {
+      "id": 23,
+      "type_movement": "expense",
+      "amount": "100.0",
+      "member_id": 3,
+      "income_type": "weekly",
+      "previous_balance": "1142.0",
+      "current_balance": "1042.0",
+      "created_at": "2024-03-09T17:09:44.321Z",
+      "updated_at": "2024-03-09T17:09:44.321Z"
+    },
+    {
+      "id": 24,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 17,
+      "income_type": "weekly",
+      "previous_balance": "1042.0",
+      "current_balance": "1047.0",
+      "created_at": "2024-03-10T14:43:59.008Z",
+      "updated_at": "2024-03-10T14:43:59.008Z"
+    },
+    {
+      "id": 25,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 17,
+      "income_type": "weekly",
+      "previous_balance": "1047.0",
+      "current_balance": "1052.0",
+      "created_at": "2024-03-10T14:44:34.719Z",
+      "updated_at": "2024-03-10T14:44:34.719Z"
+    },
+    {
+      "id": 26,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 16,
+      "income_type": "weekly",
+      "previous_balance": "1052.0",
+      "current_balance": "1057.0",
+      "created_at": "2024-03-16T02:28:58.809Z",
+      "updated_at": "2024-03-16T02:28:58.809Z"
+    },
+    {
+      "id": 27,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 16,
+      "income_type": "weekly",
+      "previous_balance": "1057.0",
+      "current_balance": "1062.0",
+      "created_at": "2024-03-16T02:29:10.525Z",
+      "updated_at": "2024-03-16T02:29:10.525Z"
+    },
+    {
+      "id": 28,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 16,
+      "income_type": "weekly",
+      "previous_balance": "1062.0",
+      "current_balance": "1067.0",
+      "created_at": "2024-03-16T02:29:12.156Z",
+      "updated_at": "2024-03-16T02:29:12.156Z"
+    },
+    {
+      "id": 29,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 12,
+      "income_type": "weekly",
+      "previous_balance": "1067.0",
+      "current_balance": "1072.0",
+      "created_at": "2024-03-16T02:29:26.234Z",
+      "updated_at": "2024-03-16T02:29:26.234Z"
+    },
+    {
+      "id": 30,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 12,
+      "income_type": "weekly",
+      "previous_balance": "1072.0",
+      "current_balance": "1077.0",
+      "created_at": "2024-03-16T02:29:27.641Z",
+      "updated_at": "2024-03-16T02:29:27.641Z"
+    },
+    {
+      "id": 31,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 8,
+      "income_type": "weekly",
+      "previous_balance": "1077.0",
+      "current_balance": "1082.0",
+      "created_at": "2024-03-16T02:29:35.134Z",
+      "updated_at": "2024-03-16T02:29:35.134Z"
+    },
+    {
+      "id": 32,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 8,
+      "income_type": "weekly",
+      "previous_balance": "1082.0",
+      "current_balance": "1087.0",
+      "created_at": "2024-03-16T02:29:36.103Z",
+      "updated_at": "2024-03-16T02:29:36.103Z"
+    },
+    {
+      "id": 33,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 1,
+      "income_type": "weekly",
+      "previous_balance": "1087.0",
+      "current_balance": "1092.0",
+      "created_at": "2024-03-16T14:43:41.578Z",
+      "updated_at": "2024-03-16T14:43:41.578Z"
+    },
+    {
+      "id": 34,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 1,
+      "income_type": "weekly",
+      "previous_balance": "1092.0",
+      "current_balance": "1097.0",
+      "created_at": "2024-03-16T14:43:42.603Z",
+      "updated_at": "2024-03-16T14:43:42.603Z"
+    },
+    {
+      "id": 35,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 5,
+      "income_type": "weekly",
+      "previous_balance": "1097.0",
+      "current_balance": "1102.0",
+      "created_at": "2024-03-16T14:44:15.994Z",
+      "updated_at": "2024-03-16T14:44:15.994Z"
+    },
+    {
+      "id": 36,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 5,
+      "income_type": "weekly",
+      "previous_balance": "1102.0",
+      "current_balance": "1107.0",
+      "created_at": "2024-03-16T14:44:16.901Z",
+      "updated_at": "2024-03-16T14:44:16.901Z"
+    },
+    {
+      "id": 37,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 5,
+      "income_type": "weekly",
+      "previous_balance": "1107.0",
+      "current_balance": "1112.0",
+      "created_at": "2024-03-16T14:44:17.819Z",
+      "updated_at": "2024-03-16T14:44:17.819Z"
+    },
+    {
+      "id": 38,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 5,
+      "income_type": "weekly",
+      "previous_balance": "1112.0",
+      "current_balance": "1117.0",
+      "created_at": "2024-03-16T14:44:18.567Z",
+      "updated_at": "2024-03-16T14:44:18.567Z"
+    },
+    {
+      "id": 39,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 5,
+      "income_type": "weekly",
+      "previous_balance": "1117.0",
+      "current_balance": "1122.0",
+      "created_at": "2024-03-16T14:44:19.616Z",
+      "updated_at": "2024-03-16T14:44:19.616Z"
+    },
+    {
+      "id": 40,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 5,
+      "income_type": "weekly",
+      "previous_balance": "1122.0",
+      "current_balance": "1127.0",
+      "created_at": "2024-03-16T14:44:20.321Z",
+      "updated_at": "2024-03-16T14:44:20.321Z"
+    },
+    {
+      "id": 41,
+      "type_movement": "expense",
+      "amount": "100.0",
+      "member_id": 3,
+      "income_type": "weekly",
+      "previous_balance": "1127.0",
+      "current_balance": "1027.0",
+      "created_at": "2024-03-16T21:04:57.938Z",
+      "updated_at": "2024-03-16T21:04:57.938Z"
+    },
+    {
+      "id": 42,
+      "type_movement": "expense",
+      "amount": "100.0",
+      "member_id": 3,
+      "income_type": "weekly",
+      "previous_balance": "1027.0",
+      "current_balance": "927.0",
+      "created_at": "2024-04-21T13:57:37.049Z",
+      "updated_at": "2024-04-21T13:57:37.049Z"
+    },
+    {
+      "id": 43,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 4,
+      "income_type": "weekly",
+      "previous_balance": "927.0",
+      "current_balance": "932.0",
+      "created_at": "2024-04-27T02:07:10.596Z",
+      "updated_at": "2024-04-27T02:07:10.596Z"
+    },
+    {
+      "id": 44,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 4,
+      "income_type": "weekly",
+      "previous_balance": "932.0",
+      "current_balance": "937.0",
+      "created_at": "2024-04-27T02:07:11.606Z",
+      "updated_at": "2024-04-27T02:07:11.606Z"
+    },
+    {
+      "id": 45,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 4,
+      "income_type": "weekly",
+      "previous_balance": "937.0",
+      "current_balance": "942.0",
+      "created_at": "2024-04-27T02:07:12.759Z",
+      "updated_at": "2024-04-27T02:07:12.759Z"
+    },
+    {
+      "id": 46,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 4,
+      "income_type": "weekly",
+      "previous_balance": "942.0",
+      "current_balance": "947.0",
+      "created_at": "2024-04-27T02:07:13.738Z",
+      "updated_at": "2024-04-27T02:07:13.738Z"
+    },
+    {
+      "id": 47,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 9,
+      "income_type": "weekly",
+      "previous_balance": "947.0",
+      "current_balance": "952.0",
+      "created_at": "2024-05-11T03:03:24.376Z",
+      "updated_at": "2024-05-11T03:03:24.376Z"
+    },
+    {
+      "id": 48,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 8,
+      "income_type": "weekly",
+      "previous_balance": "952.0",
+      "current_balance": "957.0",
+      "created_at": "2024-05-13T19:28:17.976Z",
+      "updated_at": "2024-05-13T19:28:17.976Z"
+    },
+    {
+      "id": 49,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 8,
+      "income_type": "weekly",
+      "previous_balance": "957.0",
+      "current_balance": "962.0",
+      "created_at": "2024-05-13T19:28:19.150Z",
+      "updated_at": "2024-05-13T19:28:19.150Z"
+    },
+    {
+      "id": 50,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 8,
+      "income_type": "weekly",
+      "previous_balance": "962.0",
+      "current_balance": "967.0",
+      "created_at": "2024-05-13T19:28:20.007Z",
+      "updated_at": "2024-05-13T19:28:20.007Z"
+    },
+    {
+      "id": 51,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 8,
+      "income_type": "weekly",
+      "previous_balance": "967.0",
+      "current_balance": "972.0",
+      "created_at": "2024-05-13T19:28:20.782Z",
+      "updated_at": "2024-05-13T19:28:20.782Z"
+    },
+    {
+      "id": 52,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 8,
+      "income_type": "weekly",
+      "previous_balance": "972.0",
+      "current_balance": "977.0",
+      "created_at": "2024-05-13T19:28:22.083Z",
+      "updated_at": "2024-05-13T19:28:22.083Z"
+    },
+    {
+      "id": 53,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 8,
+      "income_type": "weekly",
+      "previous_balance": "977.0",
+      "current_balance": "982.0",
+      "created_at": "2024-05-13T19:28:22.884Z",
+      "updated_at": "2024-05-13T19:28:22.884Z"
+    },
+    {
+      "id": 54,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 8,
+      "income_type": "weekly",
+      "previous_balance": "982.0",
+      "current_balance": "987.0",
+      "created_at": "2024-05-13T19:28:23.860Z",
+      "updated_at": "2024-05-13T19:28:23.860Z"
+    },
+    {
+      "id": 55,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 12,
+      "income_type": "weekly",
+      "previous_balance": "987.0",
+      "current_balance": "992.0",
+      "created_at": "2024-05-13T19:28:34.208Z",
+      "updated_at": "2024-05-13T19:28:34.208Z"
+    },
+    {
+      "id": 56,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 12,
+      "income_type": "weekly",
+      "previous_balance": "992.0",
+      "current_balance": "997.0",
+      "created_at": "2024-05-13T19:28:35.030Z",
+      "updated_at": "2024-05-13T19:28:35.030Z"
+    },
+    {
+      "id": 57,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 12,
+      "income_type": "weekly",
+      "previous_balance": "997.0",
+      "current_balance": "1002.0",
+      "created_at": "2024-05-13T19:28:35.797Z",
+      "updated_at": "2024-05-13T19:28:35.797Z"
+    },
+    {
+      "id": 58,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 12,
+      "income_type": "weekly",
+      "previous_balance": "1002.0",
+      "current_balance": "1007.0",
+      "created_at": "2024-05-13T19:28:36.813Z",
+      "updated_at": "2024-05-13T19:28:36.813Z"
+    },
+    {
+      "id": 59,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 12,
+      "income_type": "weekly",
+      "previous_balance": "1007.0",
+      "current_balance": "1012.0",
+      "created_at": "2024-05-13T19:28:37.855Z",
+      "updated_at": "2024-05-13T19:28:37.855Z"
+    },
+    {
+      "id": 60,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 12,
+      "income_type": "weekly",
+      "previous_balance": "1012.0",
+      "current_balance": "1017.0",
+      "created_at": "2024-05-13T19:28:39.224Z",
+      "updated_at": "2024-05-13T19:28:39.224Z"
+    },
+    {
+      "id": 61,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 12,
+      "income_type": "weekly",
+      "previous_balance": "1017.0",
+      "current_balance": "1022.0",
+      "created_at": "2024-05-13T19:28:40.182Z",
+      "updated_at": "2024-05-13T19:28:40.182Z"
+    },
+    {
+      "id": 62,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 14,
+      "income_type": "weekly",
+      "previous_balance": "1022.0",
+      "current_balance": "1027.0",
+      "created_at": "2024-05-16T17:27:48.140Z",
+      "updated_at": "2024-05-16T17:27:48.140Z"
+    },
+    {
+      "id": 63,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 14,
+      "income_type": "weekly",
+      "previous_balance": "1027.0",
+      "current_balance": "1032.0",
+      "created_at": "2024-05-16T17:27:49.073Z",
+      "updated_at": "2024-05-16T17:27:49.073Z"
+    },
+    {
+      "id": 64,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 14,
+      "income_type": "weekly",
+      "previous_balance": "1032.0",
+      "current_balance": "1037.0",
+      "created_at": "2024-05-16T17:27:49.866Z",
+      "updated_at": "2024-05-16T17:27:49.866Z"
+    },
+    {
+      "id": 65,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 14,
+      "income_type": "weekly",
+      "previous_balance": "1037.0",
+      "current_balance": "1042.0",
+      "created_at": "2024-05-16T17:27:50.798Z",
+      "updated_at": "2024-05-16T17:27:50.798Z"
+    },
+    {
+      "id": 66,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 14,
+      "income_type": "weekly",
+      "previous_balance": "1042.0",
+      "current_balance": "1047.0",
+      "created_at": "2024-05-16T17:27:51.845Z",
+      "updated_at": "2024-05-16T17:27:51.845Z"
+    },
+    {
+      "id": 67,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 14,
+      "income_type": "weekly",
+      "previous_balance": "1047.0",
+      "current_balance": "1052.0",
+      "created_at": "2024-05-16T17:27:52.713Z",
+      "updated_at": "2024-05-16T17:27:52.713Z"
+    },
+    {
+      "id": 68,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 14,
+      "income_type": "weekly",
+      "previous_balance": "1052.0",
+      "current_balance": "1057.0",
+      "created_at": "2024-05-16T17:27:53.761Z",
+      "updated_at": "2024-05-16T17:27:53.761Z"
+    },
+    {
+      "id": 69,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 14,
+      "income_type": "weekly",
+      "previous_balance": "1057.0",
+      "current_balance": "1062.0",
+      "created_at": "2024-05-16T17:27:54.509Z",
+      "updated_at": "2024-05-16T17:27:54.509Z"
+    },
+    {
+      "id": 70,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 14,
+      "income_type": "weekly",
+      "previous_balance": "1062.0",
+      "current_balance": "1067.0",
+      "created_at": "2024-05-16T17:27:55.235Z",
+      "updated_at": "2024-05-16T17:27:55.235Z"
+    },
+    {
+      "id": 71,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 14,
+      "income_type": "weekly",
+      "previous_balance": "1067.0",
+      "current_balance": "1072.0",
+      "created_at": "2024-05-16T17:27:56.017Z",
+      "updated_at": "2024-05-16T17:27:56.017Z"
+    },
+    {
+      "id": 72,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 13,
+      "income_type": "weekly",
+      "previous_balance": "1072.0",
+      "current_balance": "1077.0",
+      "created_at": "2024-05-16T17:28:05.408Z",
+      "updated_at": "2024-05-16T17:28:05.408Z"
+    },
+    {
+      "id": 73,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 13,
+      "income_type": "weekly",
+      "previous_balance": "1077.0",
+      "current_balance": "1082.0",
+      "created_at": "2024-05-16T17:28:06.243Z",
+      "updated_at": "2024-05-16T17:28:06.243Z"
+    },
+    {
+      "id": 74,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 13,
+      "income_type": "weekly",
+      "previous_balance": "1082.0",
+      "current_balance": "1087.0",
+      "created_at": "2024-05-16T17:28:07.216Z",
+      "updated_at": "2024-05-16T17:28:07.216Z"
+    },
+    {
+      "id": 75,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 13,
+      "income_type": "weekly",
+      "previous_balance": "1087.0",
+      "current_balance": "1092.0",
+      "created_at": "2024-05-16T17:28:07.998Z",
+      "updated_at": "2024-05-16T17:28:07.998Z"
+    },
+    {
+      "id": 76,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 13,
+      "income_type": "weekly",
+      "previous_balance": "1092.0",
+      "current_balance": "1097.0",
+      "created_at": "2024-05-16T17:28:08.726Z",
+      "updated_at": "2024-05-16T17:28:08.726Z"
+    },
+    {
+      "id": 77,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 13,
+      "income_type": "weekly",
+      "previous_balance": "1097.0",
+      "current_balance": "1102.0",
+      "created_at": "2024-05-16T17:28:09.464Z",
+      "updated_at": "2024-05-16T17:28:09.464Z"
+    },
+    {
+      "id": 78,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 13,
+      "income_type": "weekly",
+      "previous_balance": "1102.0",
+      "current_balance": "1107.0",
+      "created_at": "2024-05-16T17:28:10.456Z",
+      "updated_at": "2024-05-16T17:28:10.456Z"
+    },
+    {
+      "id": 79,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 13,
+      "income_type": "weekly",
+      "previous_balance": "1107.0",
+      "current_balance": "1112.0",
+      "created_at": "2024-05-16T17:28:11.483Z",
+      "updated_at": "2024-05-16T17:28:11.483Z"
+    },
+    {
+      "id": 80,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 13,
+      "income_type": "weekly",
+      "previous_balance": "1112.0",
+      "current_balance": "1117.0",
+      "created_at": "2024-05-16T17:28:12.410Z",
+      "updated_at": "2024-05-16T17:28:12.410Z"
+    },
+    {
+      "id": 81,
+      "type_movement": "income",
+      "amount": "5.0",
+      "member_id": 13,
+      "income_type": "weekly",
+      "previous_balance": "1117.0",
+      "current_balance": "1122.0",
+      "created_at": "2024-05-16T17:28:13.745Z",
+      "updated_at": "2024-05-16T17:28:13.745Z"
+    }
+  ]
+}
